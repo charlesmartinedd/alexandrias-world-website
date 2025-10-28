@@ -5,3 +5,4 @@ debug-*.js
 debug-*.png
 *.png
 !interactive-map/*.png
+!interactive-map/countries/**/*.png
