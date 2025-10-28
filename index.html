@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandria's World - Free Interactive Books</title>
+    <meta name="description" content="Join Alexandria on adventures around the world! 55+ free interactive books teaching kids about different cultures, languages, and traditions.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 50px;
+            border-radius: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            text-align: center;
+            max-width: 700px;
+            animation: slideUp 0.6s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            text-align: left;
+            margin: 30px 0;
+            font-size: 1.2em;
+            line-height: 2;
+        }
+
+        .feature {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 20px 50px;
+            font-size: 1.8em;
+            font-family: inherit;
+            font-weight: bold;
+            background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(47, 128, 237, 0.3);
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(47, 128, 237, 0.4);
+        }
+
+        .emoji {
+            font-size: 1.5em;
+        }
+
+        .footer {
+            margin-top: 30px;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1.2em;
+            }
+
+            .cta-button {
+                font-size: 1.4em;
+                padding: 15px 35px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Alexandria's World 🌎</h1>
+        <p class="subtitle">Explore 55+ Countries with FREE Interactive Books!</p>
+
+        <div class="features">
+            <div class="feature">📚 <strong>55+ Books</strong> - Africa, Asia, Europe, Americas, Oceania</div>
+            <div class="feature">🎨 <strong>770+ Pages</strong> - Beautiful watercolor illustrations</div>
+            <div class="feature">🌏 <strong>Learn About</strong> - Cultures, landmarks, food, traditions</div>
+            <div class="feature">👶 <strong>Ages 5-9</strong> - Kid-friendly, safe, educational</div>
+            <div class="feature">✨ <strong>100% FREE</strong> - No ads, no sign-ups, just learning!</div>
+        </div>
+
+        <a href="book-viewer/index.html" class="cta-button">
+            🚀 Start Exploring Now!
+        </a>
+
+        <div class="footer">
+            Join Alexandria on adventures around the world 🌟
+        </div>
+    </div>
+</body>
+</html>
