@@ -83,8 +83,10 @@ function getBookImagePath(countryCode, pageFile) {
     const book = BOOK_DATA[countryCode];
     if (!book || book.status !== 'available') return null;
 
-    // Path will be relative to the book-viewer location
-    return `../../alexandrias-world-book-design/countries/${book.folder}/images/${pageFile}`;
+    // Path is relative to the book-viewer location
+    // For local development: ../../alexandrias-world-book-design/countries/...
+    // For GitHub Pages deployment: countries/...
+    return `countries/${book.folder}/images/${pageFile}`;
 }
 
 // Helper function to check if book is available
