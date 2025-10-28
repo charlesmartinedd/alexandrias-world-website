@@ -22,8 +22,16 @@
             text-align: center;
             color: white;
             font-size: 3em;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: white;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            opacity: 0.95;
         }
 
         .container {
@@ -46,7 +54,6 @@
             transition: all 0.3s ease;
         }
 
-        /* Override SVG default styles */
         svg {
             width: 100%;
             height: auto;
@@ -105,7 +112,7 @@
             fill: #E0E0E0 !important;
         }
 
-        /* All country paths */
+        /* Country styling */
         g[id] path {
             stroke: white !important;
             stroke-width: 0.5 !important;
@@ -117,10 +124,17 @@
             stroke: #333 !important;
             stroke-width: 1.5 !important;
             filter: brightness(0.85);
-            transform: scale(1.02);
         }
 
-        /* Hide country labels from original SVG */
+        /* Available book indicator - glowing effect */
+        g[data-book="available"] path {
+            filter: drop-shadow(0 0 3px rgba(255, 215, 0, 0.6));
+        }
+
+        g[data-book="available"]:hover path {
+            filter: brightness(1.1) drop-shadow(0 0 5px rgba(255, 215, 0, 0.9));
+        }
+
         text {
             display: none;
         }
@@ -150,13 +164,207 @@
             border-radius: 5px;
             border: 2px solid #333;
         }
+
+        .legend-special {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal-content {
+            position: relative;
+            background: white;
+            margin: 5% auto;
+            padding: 0;
+            max-width: 600px;
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+            animation: slideUp 0.4s ease;
+            overflow: hidden;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #FF6B6B 0%, #4ECDC4 100%);
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+
+        .modal-title {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .modal-subtitle {
+            font-size: 1.3em;
+            opacity: 0.95;
+        }
+
+        .cover-container {
+            padding: 30px;
+            text-align: center;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        }
+
+        .cover-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .cover-image:hover {
+            transform: scale(1.05);
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 15px;
+            padding: 30px;
+            justify-content: center;
+            background: white;
+        }
+
+        .explore-button, .close-modal-button {
+            padding: 18px 40px;
+            font-size: 1.4em;
+            font-family: inherit;
+            font-weight: bold;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .explore-button {
+            background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
+            color: white;
+            flex: 2;
+        }
+
+        .explore-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(47, 128, 237, 0.4);
+        }
+
+        .close-modal-button {
+            background: #e0e0e0;
+            color: #666;
+            flex: 1;
+        }
+
+        .close-modal-button:hover {
+            background: #d0d0d0;
+            transform: translateY(-2px);
+        }
+
+        .coming-soon {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .coming-soon-text {
+            font-size: 1.8em;
+            color: #666;
+            margin: 20px 0;
+        }
+
+        .coming-soon-emoji {
+            font-size: 4em;
+            margin: 20px 0;
+        }
+
+        .close-x {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2em;
+            color: white;
+            cursor: pointer;
+            z-index: 10;
+            transition: transform 0.3s ease;
+        }
+
+        .close-x:hover {
+            transform: scale(1.2);
+        }
+
+        /* Loading state */
+        .loading-cover {
+            width: 400px;
+            height: 500px;
+            background: linear-gradient(135deg, #e0e0e0 0%, #f0f0f0 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            .modal-content {
+                margin: 10% 20px;
+            }
+
+            .modal-title {
+                font-size: 1.8em;
+            }
+
+            .explore-button, .close-modal-button {
+                font-size: 1.1em;
+                padding: 15px 25px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>🌍 Alexandria's World Map 🌎</h1>
+    <p class="subtitle">✨ Click on a glowing country to read Alexandria's adventure! ✨</p>
 
     <div class="container">
-        <div id="map-info">Click on any country to learn its name!</div>
+        <div id="map-info">Hover over countries to explore!</div>
 
         <svg version="1.1" 
     id="Earth" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" 
@@ -3329,106 +3537,260 @@
                 <div class="legend-color" style="background: #FF69B4;"></div>
                 <span>Oceania</span>
             </div>
+            <div class="legend-item">
+                <div class="legend-color legend-special"></div>
+                <span>✨ Book Available!</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="bookModal" class="modal">
+        <div class="modal-content">
+            <span class="close-x" onclick="closeModal()">&times;</span>
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle">Alexandria's Adventure</h2>
+                <p class="modal-subtitle" id="modalSubtitle">Join Alexandria on her journey!</p>
+            </div>
+            <div class="cover-container" id="coverContainer">
+                <div class="loading-cover">⏳</div>
+            </div>
+            <div class="modal-buttons" id="modalButtons">
+                <button class="explore-button" id="exploreButton" onclick="openBook()">
+                    📚 Explore This Book FREE!
+                </button>
+                <button class="close-modal-button" onclick="closeModal()">
+                    Maybe Later
+                </button>
+            </div>
         </div>
     </div>
 
     <script>
-        // Country name mapping from country codes
-        const countryNames = {
-            'AF': 'Afghanistan', 'AX': 'Åland Islands', 'AL': 'Albania', 'DZ': 'Algeria',
-            'AS': 'American Samoa', 'AD': 'Andorra', 'AO': 'Angola', 'AI': 'Anguilla',
-            'AQ': 'Antarctica', 'AG': 'Antigua and Barbuda', 'AR': 'Argentina', 'AM': 'Armenia',
-            'AW': 'Aruba', 'AU': 'Australia', 'AT': 'Austria', 'AZ': 'Azerbaijan',
-            'BS': 'Bahamas', 'BH': 'Bahrain', 'BD': 'Bangladesh', 'BB': 'Barbados',
-            'BY': 'Belarus', 'BE': 'Belgium', 'BZ': 'Belize', 'BJ': 'Benin',
-            'BM': 'Bermuda', 'BT': 'Bhutan', 'BO': 'Bolivia', 'BQ': 'Bonaire',
-            'BA': 'Bosnia and Herzegovina', 'BW': 'Botswana', 'BV': 'Bouvet Island', 'BR': 'Brazil',
-            'IO': 'British Indian Ocean Territory', 'BN': 'Brunei', 'BG': 'Bulgaria', 'BF': 'Burkina Faso',
-            'BI': 'Burundi', 'KH': 'Cambodia', 'CM': 'Cameroon', 'CA': 'Canada',
-            'CV': 'Cape Verde', 'KY': 'Cayman Islands', 'CF': 'Central African Republic', 'TD': 'Chad',
-            'CL': 'Chile', 'CN': 'China', 'CX': 'Christmas Island', 'CC': 'Cocos Islands',
-            'CO': 'Colombia', 'KM': 'Comoros', 'CG': 'Congo', 'CD': 'Congo (Democratic Republic)',
-            'CK': 'Cook Islands', 'CR': 'Costa Rica', 'CI': 'Côte d\'Ivoire', 'HR': 'Croatia',
-            'CU': 'Cuba', 'CW': 'Curaçao', 'CY': 'Cyprus', 'CZ': 'Czech Republic',
-            'DK': 'Denmark', 'DJ': 'Djibouti', 'DM': 'Dominica', 'DO': 'Dominican Republic',
-            'EC': 'Ecuador', 'EG': 'Egypt', 'SV': 'El Salvador', 'GQ': 'Equatorial Guinea',
-            'ER': 'Eritrea', 'EE': 'Estonia', 'ET': 'Ethiopia', 'FK': 'Falkland Islands',
-            'FO': 'Faroe Islands', 'FJ': 'Fiji', 'FI': 'Finland', 'FR': 'France',
-            'GF': 'French Guiana', 'PF': 'French Polynesia', 'TF': 'French Southern Territories', 'GA': 'Gabon',
-            'GM': 'Gambia', 'GE': 'Georgia', 'DE': 'Germany', 'GH': 'Ghana',
-            'GI': 'Gibraltar', 'GR': 'Greece', 'GL': 'Greenland', 'GD': 'Grenada',
-            'GP': 'Guadeloupe', 'GU': 'Guam', 'GT': 'Guatemala', 'GG': 'Guernsey',
-            'GN': 'Guinea', 'GW': 'Guinea-Bissau', 'GY': 'Guyana', 'HT': 'Haiti',
-            'HM': 'Heard Island', 'VA': 'Holy See', 'HN': 'Honduras', 'HK': 'Hong Kong',
-            'HU': 'Hungary', 'IS': 'Iceland', 'IN': 'India', 'ID': 'Indonesia',
-            'IR': 'Iran', 'IQ': 'Iraq', 'IE': 'Ireland', 'IM': 'Isle of Man',
-            'IL': 'Israel', 'IT': 'Italy', 'JM': 'Jamaica', 'JP': 'Japan',
-            'JE': 'Jersey', 'JO': 'Jordan', 'KZ': 'Kazakhstan', 'KE': 'Kenya',
-            'KI': 'Kiribati', 'KP': 'North Korea', 'KR': 'South Korea', 'XK': 'Kosovo',
-            'KW': 'Kuwait', 'KG': 'Kyrgyzstan', 'LA': 'Laos', 'LV': 'Latvia',
-            'LB': 'Lebanon', 'LS': 'Lesotho', 'LR': 'Liberia', 'LY': 'Libya',
-            'LI': 'Liechtenstein', 'LT': 'Lithuania', 'LU': 'Luxembourg', 'MO': 'Macao',
-            'MK': 'Macedonia', 'MG': 'Madagascar', 'MW': 'Malawi', 'MY': 'Malaysia',
-            'MV': 'Maldives', 'ML': 'Mali', 'MT': 'Malta', 'MH': 'Marshall Islands',
-            'MQ': 'Martinique', 'MR': 'Mauritania', 'MU': 'Mauritius', 'YT': 'Mayotte',
-            'MX': 'Mexico', 'FM': 'Micronesia', 'MD': 'Moldova', 'MC': 'Monaco',
-            'MN': 'Mongolia', 'ME': 'Montenegro', 'MS': 'Montserrat', 'MA': 'Morocco',
-            'MZ': 'Mozambique', 'MM': 'Myanmar', 'NA': 'Namibia', 'NR': 'Nauru',
-            'NP': 'Nepal', 'NL': 'Netherlands', 'NC': 'New Caledonia', 'NZ': 'New Zealand',
-            'NI': 'Nicaragua', 'NE': 'Niger', 'NG': 'Nigeria', 'NU': 'Niue',
-            'NF': 'Norfolk Island', 'MP': 'Northern Mariana Islands', 'NO': 'Norway', 'OM': 'Oman',
-            'PK': 'Pakistan', 'PW': 'Palau', 'PS': 'Palestine', 'PA': 'Panama',
-            'PG': 'Papua New Guinea', 'PY': 'Paraguay', 'PE': 'Peru', 'PH': 'Philippines',
-            'PN': 'Pitcairn', 'PL': 'Poland', 'PT': 'Portugal', 'PR': 'Puerto Rico',
-            'QA': 'Qatar', 'RE': 'Réunion', 'RO': 'Romania', 'RU': 'Russia',
-            'RW': 'Rwanda', 'BL': 'Saint Barthélemy', 'SH': 'Saint Helena', 'KN': 'Saint Kitts and Nevis',
-            'LC': 'Saint Lucia', 'MF': 'Saint Martin', 'PM': 'Saint Pierre and Miquelon', 'VC': 'Saint Vincent',
-            'WS': 'Samoa', 'SM': 'San Marino', 'ST': 'São Tomé and Príncipe', 'SA': 'Saudi Arabia',
-            'SN': 'Senegal', 'RS': 'Serbia', 'SC': 'Seychelles', 'SL': 'Sierra Leone',
-            'SG': 'Singapore', 'SX': 'Sint Maarten', 'SK': 'Slovakia', 'SI': 'Slovenia',
-            'SB': 'Solomon Islands', 'SO': 'Somalia', 'ZA': 'South Africa', 'GS': 'South Georgia',
-            'SS': 'South Sudan', 'ES': 'Spain', 'LK': 'Sri Lanka', 'SD': 'Sudan',
-            'SR': 'Suriname', 'SJ': 'Svalbard', 'SZ': 'Swaziland', 'SE': 'Sweden',
-            'CH': 'Switzerland', 'SY': 'Syria', 'TW': 'Taiwan', 'TJ': 'Tajikistan',
-            'TZ': 'Tanzania', 'TH': 'Thailand', 'TL': 'Timor-Leste', 'TG': 'Togo',
-            'TK': 'Tokelau', 'TO': 'Tonga', 'TT': 'Trinidad and Tobago', 'TN': 'Tunisia',
-            'TR': 'Turkey', 'TM': 'Turkmenistan', 'TC': 'Turks and Caicos', 'TV': 'Tuvalu',
-            'UG': 'Uganda', 'UA': 'Ukraine', 'AE': 'United Arab Emirates', 'GB': 'United Kingdom',
-            'US': 'United States', 'UY': 'Uruguay', 'UZ': 'Uzbekistan', 'VU': 'Vanuatu',
-            'VE': 'Venezuela', 'VN': 'Vietnam', 'VG': 'British Virgin Islands', 'VI': 'U.S. Virgin Islands',
-            'WF': 'Wallis and Futuna', 'EH': 'Western Sahara', 'YE': 'Yemen', 'ZM': 'Zambia',
-            'ZW': 'Zimbabwe'
-        };
+// Book availability data - maps country codes to their book data
+const BOOK_DATA = {
+    // Format: 'COUNTRY_CODE': { name: 'Country Name', folder: 'folder_name', status: 'available/coming-soon' }
 
-        // Get all country groups
-        const countryGroups = document.querySelectorAll('g[id]');
+    // Available Books (55+ countries with complete images)
+    'AF': { name: 'Afghanistan', folder: 'afghanistan', status: 'available', pages: 14 },
+    'AL': { name: 'Albania', folder: 'albania', status: 'available', pages: 14 },
+    'DZ': { name: 'Algeria', folder: 'algeria', status: 'available', pages: 14 },
+    'AD': { name: 'Andorra', folder: 'andorra', status: 'available', pages: 14 },
+    'AO': { name: 'Angola', folder: 'angola', status: 'available', pages: 14 },
+    'AG': { name: 'Antigua and Barbuda', folder: 'antigua_and_barbuda', status: 'available', pages: 14 },
+    'AR': { name: 'Argentina', folder: 'argentina', status: 'available', pages: 14 },
+    'AM': { name: 'Armenia', folder: 'armenia', status: 'available', pages: 14 },
+    'AU': { name: 'Australia', folder: 'australia', status: 'available', pages: 14 },
+    'AT': { name: 'Austria', folder: 'austria', status: 'available', pages: 14 },
+    'AZ': { name: 'Azerbaijan', folder: 'azerbaijan', status: 'available', pages: 14 },
+    'BS': { name: 'Bahamas', folder: 'bahamas', status: 'available', pages: 14 },
+    'BH': { name: 'Bahrain', folder: 'bahrain', status: 'available', pages: 14 },
+    'BD': { name: 'Bangladesh', folder: 'bangladesh', status: 'available', pages: 14 },
+    'BB': { name: 'Barbados', folder: 'barbados', status: 'available', pages: 14 },
+    'BY': { name: 'Belarus', folder: 'belarus', status: 'available', pages: 14 },
+    'BE': { name: 'Belgium', folder: 'belgium', status: 'available', pages: 14 },
+    'BZ': { name: 'Belize', folder: 'belize', status: 'available', pages: 14 },
+    'BJ': { name: 'Benin', folder: 'benin', status: 'available', pages: 14 },
+    'BT': { name: 'Bhutan', folder: 'bhutan', status: 'available', pages: 14 },
+    'BO': { name: 'Bolivia', folder: 'bolivia', status: 'available', pages: 14 },
+    'BA': { name: 'Bosnia and Herzegovina', folder: 'bosnia_and_herzegovina', status: 'available', pages: 14 },
+    'BW': { name: 'Botswana', folder: 'botswana', status: 'available', pages: 14 },
+    'BR': { name: 'Brazil', folder: 'brazil', status: 'available', pages: 14 },
+    'BN': { name: 'Brunei', folder: 'brunei', status: 'available', pages: 14 },
+    'BG': { name: 'Bulgaria', folder: 'bulgaria', status: 'available', pages: 14 },
+    'BF': { name: 'Burkina Faso', folder: 'burkina_faso', status: 'available', pages: 14 },
+    'BI': { name: 'Burundi', folder: 'burundi', status: 'available', pages: 14 },
+    'KH': { name: 'Cambodia', folder: 'cambodia', status: 'available', pages: 14 },
+    'CM': { name: 'Cameroon', folder: 'cameroon', status: 'available', pages: 14 },
+    'CA': { name: 'Canada', folder: 'canada', status: 'available', pages: 14 },
+    'CV': { name: 'Cape Verde', folder: 'cape_verde', status: 'available', pages: 14 },
+    'CF': { name: 'Central African Republic', folder: 'central_african_republic', status: 'available', pages: 14 },
+    'TD': { name: 'Chad', folder: 'chad', status: 'available', pages: 14 },
+    'CL': { name: 'Chile', folder: 'chile', status: 'available', pages: 14 },
+    'CN': { name: 'China', folder: 'china', status: 'available', pages: 14 },
+    'CO': { name: 'Colombia', folder: 'colombia', status: 'available', pages: 14 },
+    'KM': { name: 'Comoros', folder: 'comoros', status: 'available', pages: 14 },
+    'EG': { name: 'Egypt', folder: 'egypt', status: 'available', pages: 14 },
+    'FR': { name: 'France', folder: 'france', status: 'available', pages: 14 },
+    'DE': { name: 'Germany', folder: 'germany', status: 'available', pages: 14 },
+    'IN': { name: 'India', folder: 'india', status: 'available', pages: 14 },
+    'ID': { name: 'Indonesia', folder: 'indonesia', status: 'available', pages: 14 },
+    'IT': { name: 'Italy', folder: 'italy', status: 'available', pages: 14 },
+    'JP': { name: 'Japan', folder: 'japan', status: 'available', pages: 14 },
+    'KE': { name: 'Kenya', folder: 'kenya', status: 'available', pages: 14 },
+    'MX': { name: 'Mexico', folder: 'mexico', status: 'available', pages: 14 },
+    'MA': { name: 'Morocco', folder: 'morocco', status: 'available', pages: 14 },
+    'NG': { name: 'Nigeria', folder: 'nigeria', status: 'available', pages: 14 },
+    'PE': { name: 'Peru', folder: 'peru', status: 'available', pages: 14 },
+    'ZA': { name: 'South Africa', folder: 'south_africa', status: 'available', pages: 14 },
+    'ES': { name: 'Spain', folder: 'spain', status: 'available', pages: 14 },
+    'TH': { name: 'Thailand', folder: 'thailand', status: 'available', pages: 14 },
+    'GB': { name: 'United Kingdom', folder: 'uk', status: 'available', pages: 14 },
+    'US': { name: 'United States', folder: 'usa', status: 'available', pages: 14 }
+};
+
+// Page information for consistent display
+const PAGE_INFO = [
+    { number: 1, file: 'page_01_cover.png', title: 'Cover' },
+    { number: 2, file: 'page_02_introduction.png', title: 'Introduction' },
+    { number: 3, file: 'page_03_arrival.png', title: 'Arrival' },
+    { number: 4, file: 'page_04_plane_window.png', title: 'Through the Plane Window' },
+    { number: 5, file: 'page_05_meeting_friend.png', title: 'Meeting a New Friend' },
+    { number: 6, file: 'page_06_with_family.png', title: 'With Family' },
+    { number: 7, file: 'page_07_traditional_meal.png', title: 'Traditional Meal' },
+    { number: 8, file: 'page_08_cultural_story.png', title: 'Cultural Story' },
+    { number: 9, file: 'page_09_landmark_visit.png', title: 'Landmark Visit' },
+    { number: 10, file: 'page_10_second_landmark.png', title: 'Second Landmark' },
+    { number: 11, file: 'page_11_third_landmark.png', title: 'Third Landmark' },
+    { number: 12, file: 'page_12_activity.png', title: 'Activity Time' },
+    { number: 13, file: 'page_13_playground.png', title: 'Playground Fun' },
+    { number: 14, file: 'page_14_goodbye.png', title: 'Goodbye' }
+];
+
+// Helper function to get book path
+function getBookImagePath(countryCode, pageFile) {
+    const book = BOOK_DATA[countryCode];
+    if (!book || book.status !== 'available') return null;
+
+    // Path will be relative to the book-viewer location
+    return `../../alexandrias-world-book-design/countries/${book.folder}/images/${pageFile}`;
+}
+
+// Helper function to check if book is available
+function isBookAvailable(countryCode) {
+    return BOOK_DATA[countryCode] && BOOK_DATA[countryCode].status === 'available';
+}
+
+// Export for use in other files
+
+
+
+        let currentCountryCode = null;
+        const modal = document.getElementById('bookModal');
         const mapInfo = document.getElementById('map-info');
 
-        countryGroups.forEach(group => {
-            const countryCode = group.id;
-            const countryName = countryNames[countryCode] || countryCode;
+        // Initialize map after DOM loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeMap();
+        });
 
-            // Click handler
-            group.addEventListener('click', function() {
-                mapInfo.textContent = '🌟 You discovered: ' + countryName + '! 🌟';
-                mapInfo.style.color = '#FF6B6B';
-                mapInfo.style.transform = 'scale(1.1)';
+        function initializeMap() {
+            const countryGroups = document.querySelectorAll('g[id]');
 
-                setTimeout(function() {
-                    mapInfo.style.transform = 'scale(1)';
-                }, 300);
+            countryGroups.forEach(group => {
+                const countryCode = group.id;
+
+                // Mark countries with available books
+                if (isBookAvailable(countryCode)) {
+                    group.setAttribute('data-book', 'available');
+                }
+
+                // Click handler
+                group.addEventListener('click', function() {
+                    if (isBookAvailable(countryCode)) {
+                        openModal(countryCode);
+                    } else {
+                        showComingSoon(countryCode);
+                    }
+                });
+
+                // Hover handlers
+                group.addEventListener('mouseover', function() {
+                    const name = BOOK_DATA[countryCode]?.name || countryCode;
+                    const available = isBookAvailable(countryCode);
+
+                    if (available) {
+                        mapInfo.textContent = `✨ ${name} - Click to read Alexandria's adventure!`;
+                        mapInfo.style.color = '#FF6B6B';
+                    } else {
+                        mapInfo.textContent = `📍 ${name} - Coming soon!`;
+                        mapInfo.style.color = '#4ECDC4';
+                    }
+                });
+
+                group.addEventListener('mouseout', function() {
+                    mapInfo.textContent = 'Hover over countries to explore!';
+                    mapInfo.style.color = '#333';
+                });
             });
 
-            // Hover handlers
-            group.addEventListener('mouseover', function() {
-                mapInfo.textContent = '👉 Hovering over: ' + countryName;
-                mapInfo.style.color = '#4ECDC4';
-            });
+            console.log('✅ Map initialized with', countryGroups.length, 'countries');
+            console.log('✨ Books available:', Object.keys(BOOK_DATA).filter(isBookAvailable).length);
+        }
 
-            group.addEventListener('mouseout', function() {
-                mapInfo.textContent = 'Click on any country to learn its name!';
-                mapInfo.style.color = '#333';
-            });
+        function openModal(countryCode) {
+            currentCountryCode = countryCode;
+            const bookData = BOOK_DATA[countryCode];
+
+            // Set modal content
+            document.getElementById('modalTitle').textContent = `Alexandria's ${bookData.name} Adventure!`;
+            document.getElementById('modalSubtitle').textContent = `Discover the wonders of ${bookData.name}`;
+
+            // Load cover image
+            const coverPath = getBookImagePath(countryCode, 'page_01_cover.png');
+            const coverContainer = document.getElementById('coverContainer');
+
+            coverContainer.innerHTML = '<div class="loading-cover">⏳</div>';
+
+            const img = new Image();
+            img.onload = function() {
+                coverContainer.innerHTML = `<img src="${coverPath}" alt="${bookData.name} Cover" class="cover-image">`;
+            };
+            img.onerror = function() {
+                coverContainer.innerHTML = `<div class="coming-soon-emoji">📚</div><p>Cover image loading...</p>`;
+            };
+            img.src = coverPath;
+
+            // Show modal
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function showComingSoon(countryCode) {
+            const name = BOOK_DATA[countryCode]?.name || countryCode;
+
+            document.getElementById('modalTitle').textContent = name;
+            document.getElementById('modalSubtitle').textContent = 'Alexandria will visit soon!';
+            document.getElementById('coverContainer').innerHTML = `
+                <div class="coming-soon">
+                    <div class="coming-soon-emoji">🚀</div>
+                    <p class="coming-soon-text">This adventure is coming soon!</p>
+                    <p style="color: #999; font-size: 1.2em;">Check back later to join Alexandria in ${name}!</p>
+                </div>
+            `;
+            document.getElementById('modalButtons').style.display = 'none';
+
+            modal.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+            currentCountryCode = null;
+
+            // Reset buttons display
+            document.getElementById('modalButtons').style.display = 'flex';
+        }
+
+        function openBook() {
+            if (currentCountryCode && isBookAvailable(currentCountryCode)) {
+                window.location.href = `book-reader.html?country=${currentCountryCode}`;
+            }
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modal.style.display === 'block') {
+                closeModal();
+            }
         });
     </script>
 </body>
