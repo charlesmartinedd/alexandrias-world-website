@@ -151,7 +151,6 @@
             border: 2px solid #333;
         }
     </style>
-    <link rel="stylesheet" href="storybook.css">
 </head>
 <body>
     <h1>🌍 Alexandria's World Map 🌎</h1>
@@ -3411,18 +3410,13 @@
 
             // Click handler
             group.addEventListener('click', function() {
-                // Open storybook modal if available
-                if (window.storybookModal && hasStorybook(countryCode)) {
-                    window.storybookModal.openStory(countryCode, countryName);
-                } else {
-                    mapInfo.textContent = '🌟 ' + countryName + ' - Coming Soon! 🌟';
-                    mapInfo.style.color = '#FF6B6B';
-                    mapInfo.style.transform = 'scale(1.1)';
+                mapInfo.textContent = '🌟 You discovered: ' + countryName + '! 🌟';
+                mapInfo.style.color = '#FF6B6B';
+                mapInfo.style.transform = 'scale(1.1)';
 
-                    setTimeout(function() {
-                        mapInfo.style.transform = 'scale(1)';
-                    }, 300);
-                }
+                setTimeout(function() {
+                    mapInfo.style.transform = 'scale(1)';
+                }, 300);
             });
 
             // Hover handlers
@@ -3437,7 +3431,5 @@
             });
         });
     </script>
-    <script src="config.js"></script>
-    <script src="storybook-modal.js"></script>
 </body>
 </html>
