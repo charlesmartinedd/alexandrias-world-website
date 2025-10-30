@@ -80,9 +80,7 @@
       min-height: 280px;
       background: linear-gradient(to bottom, transparent 0%, var(--wood-light) 95%, var(--wood-medium) 100%);
       border-radius: 8px 8px 0 0;
-      box-shadow:
-        inset 0 -10px 20px rgba(0, 0, 0, 0.4),
-        0 10px 30px rgba(0, 0, 0, 0.6);
+      /* REMOVED permanent shadows */
     }
 
     .shelf::before {
@@ -93,7 +91,7 @@
       right: 0;
       height: 25px;
       background: linear-gradient(to bottom, var(--wood-medium), var(--wood-dark));
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+      /* REMOVED shadow from shelf edge */
       border-top: 1px solid rgba(212, 175, 55, 0.2);
     }
 
@@ -123,14 +121,18 @@
     /* REMOVED .book::before shadow overlay */
 
     .book:hover {
-      transform: translateX(-15px) scale(1.05);
-      box-shadow: 0 0 30px rgba(212, 175, 55, 0.6); /* Subtle gold glow on hover */
+      transform: translateX(-15px); /* Pull out effect */
+      box-shadow:
+        0 0 20px rgba(212, 175, 55, 0.6),  /* Gold glow */
+        0 5px 15px rgba(0, 0, 0, 0.3);     /* Subtle drop shadow */
       z-index: 10;
     }
 
     /* Show spine text ONLY on hover */
     .book:hover .book-spine {
-      opacity: 1;
+      opacity: 1 !important;   /* Override hidden state */
+      visibility: visible !important; /* Make visible */
+      transition: opacity 0.3s ease, visibility 0s 0s; /* Immediate visibility, fade opacity */
     }
 
     .book:nth-child(4n+1) { background: var(--leather-burgundy); }
@@ -145,25 +147,28 @@
       transform: translateX(-50%);
       writing-mode: vertical-rl;
       text-orientation: mixed;
-      font-size: 1.5rem;
+      font-size: 1.2rem;     /* Smaller to fit in book width */
       font-weight: 900;
-      letter-spacing: 3px;
+      letter-spacing: 2px;
       color: #ffffff;
-      background: rgba(0, 0, 0, 0.7); /* DARKER background for better contrast on hover */
-      padding: 15px 8px;
-      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.85); /* Darker for contrast */
+      padding: 10px 4px;      /* Reduced padding to fit */
+      border-radius: 3px;
       text-shadow:
         0 0 5px rgba(212, 175, 55, 1),
-        0 0 10px rgba(212, 175, 55, 0.8),
+        0 0 8px rgba(212, 175, 55, 0.8),
         2px 2px 4px rgba(0, 0, 0, 1);
-      width: 180px;
+      width: 42px;             /* MATCH book width (50px - padding) */
+      max-width: 42px;         /* Prevent overflow */
       text-align: center;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       pointer-events: none;
-      opacity: 0; /* HIDDEN by default */
-      transition: opacity 0.3s ease; /* SMOOTH fade in on hover */
+      opacity: 0 !important;   /* FORCE hidden by default */
+      visibility: hidden;      /* Extra safety - truly invisible */
+      transition: opacity 0.3s ease, visibility 0s 0.3s; /* Delay visibility */
+      z-index: 100;            /* Ensure it's on top when visible */
     }
 
     /* Book Modal (Opened Book) */
