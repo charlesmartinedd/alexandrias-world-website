@@ -72,6 +72,7 @@
       position: relative;
       display: flex;
       flex-wrap: wrap;       /* WRAP books to multiple rows */
+      justify-content: space-evenly; /* EVENLY distribute books */
       gap: 8px;
       padding: 20px 40px 40px;
       overflow-x: hidden;    /* NO horizontal scrolling */
@@ -176,6 +177,7 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
+      pointer-events: none; /* CRITICAL: Let clicks pass through to book */
     }
 
     /* Book Modal (Opened Book) */
@@ -491,9 +493,9 @@
       }
     }
 
-    // Organize books into full shelves (18 books per shelf)
+    // Organize books into full shelves (20 books per shelf)
     function organizeBooksIntoShelves(books) {
-      const BOOKS_PER_SHELF = 18;
+      const BOOKS_PER_SHELF = 20;
       const shelves = [];
 
       for (let i = 0; i < books.length; i += BOOKS_PER_SHELF) {
