@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - heading "🌍 Alexandria's World" [level=1] [ref=e4]
+    - generic [ref=e5]: Cultural Adventures for Young Explorers
+    - generic [ref=e6]: Join Alexandria as she travels to 193 countries, discovering traditional clothing, iconic landmarks, and cultural treasures through beautiful watercolor illustrations. Each book is a journey of education, diversity, and wonder!
+    - generic [ref=e7]:
+      - link "Explore Countries" [ref=e8] [cursor=pointer]:
+        - /url: "#countries"
+      - link "Learn More" [ref=e9] [cursor=pointer]:
+        - /url: "#about"
+      - link "Resources" [ref=e10] [cursor=pointer]:
+        - /url: "#resources"
+  - generic [ref=e11]:
+    - generic [ref=e12]:
+      - generic [ref=e13]: "193"
+      - generic [ref=e14]: Countries
+    - generic [ref=e15]:
+      - generic [ref=e16]: 2,702
+      - generic [ref=e17]: Illustrations
+    - generic [ref=e18]:
+      - generic [ref=e19]: "14"
+      - generic [ref=e20]: Pages per Book
+    - generic [ref=e21]:
+      - generic [ref=e22]: 100%
+      - generic [ref=e23]: Cultural Accuracy
+  - generic [ref=e24]:
+    - heading "📚 Featured Sample Books" [level=2] [ref=e25]
+    - generic [ref=e26]:
+      - generic [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: 🇯🇵
+        - generic [ref=e29]:
+          - generic [ref=e30]: Japan
+          - generic [ref=e31]: Alexandria explores Tokyo, wears a beautiful kimono, visits Mount Fuji, and experiences cherry blossom season in this enchanting journey through Japan.
+      - generic [ref=e32] [cursor=pointer]:
+        - generic [ref=e33]: 🇧🇷
+        - generic [ref=e34]:
+          - generic [ref=e35]: Brazil
+          - generic [ref=e36]: Discover the Amazon rainforest, carnival celebrations, and traditional Festa Junina dress as Alexandria explores the vibrant culture of Brazil.
+      - generic [ref=e37] [cursor=pointer]:
+        - generic [ref=e38]: 🇲🇽
+        - generic [ref=e39]:
+          - generic [ref=e40]: Mexico
+          - generic [ref=e41]: Experience ancient pyramids, colorful traditional embroidered dresses, and rich Mexican heritage through Alexandria's adventures.
+  - generic [ref=e42]:
+    - heading "✨ What Makes This Special" [level=2] [ref=e43]
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]: 🎨
+        - generic [ref=e47]: Beautiful Watercolors
+        - generic [ref=e48]: Soft, professional children's book illustrations with gentle color blending and authentic cultural details
+      - generic [ref=e49]:
+        - generic [ref=e50]: 👗
+        - generic [ref=e51]: Traditional Clothing
+        - generic [ref=e52]: Alexandria wears authentic traditional children's clothing from each country, researched for cultural accuracy
+      - generic [ref=e53]:
+        - generic [ref=e54]: 🏛️
+        - generic [ref=e55]: Iconic Landmarks
+        - generic [ref=e56]: Featuring famous architectural wonders, monuments, and natural landmarks unique to each nation
+      - generic [ref=e57]:
+        - generic [ref=e58]: 🌸
+        - generic [ref=e59]: Native Nature
+        - generic [ref=e60]: Authentic plants, flowers, and natural elements specific to each country's environment and ecosystem
+      - generic [ref=e61]:
+        - generic [ref=e62]: 🎯
+        - generic [ref=e63]: Educational Value
+        - generic [ref=e64]: Teaching children about world cultures, diversity, geography, and global citizenship through storytelling
+      - generic [ref=e65]:
+        - generic [ref=e66]: ❤️
+        - generic [ref=e67]: Cultural Respect
+        - generic [ref=e68]: Created with cultural sensitivity guidelines, celebrating each nation's unique heritage with dignity
+  - generic [ref=e69]:
+    - heading "📖 Resources & Information" [level=2] [ref=e70]
+    - generic [ref=e71]:
+      - generic [ref=e72]:
+        - generic [ref=e73]: 📂 Sample Books
+        - link "View Sample Book Pages →" [ref=e75] [cursor=pointer]:
+          - /url: Sample-Books/
+      - generic [ref=e76]:
+        - generic [ref=e77]: 🌎 Countries Database
+        - link "Explore All 193 Countries →" [ref=e79] [cursor=pointer]:
+          - /url: Countries/
+      - generic [ref=e80]:
+        - generic [ref=e81]: 📚 Cultural Research
+        - link "View Research & Guidelines →" [ref=e83] [cursor=pointer]:
+          - /url: Resources/
+      - generic [ref=e84]:
+        - generic [ref=e85]: 🎨 About the Project
+        - generic [ref=e86]: 193 UN-recognized countries • 2,702 total illustrations • 14 pages per book
+      - generic [ref=e87]:
+        - generic [ref=e88]: 👩‍🏫 For Educators
+        - generic [ref=e89]: Perfect for schools, libraries, and homeschooling programs teaching global cultures
+      - generic [ref=e90]:
+        - generic [ref=e91]: ✨ Series Character
+        - generic [ref=e92]: Alexandria - A young explorer with curly brown hair, spreading cultural understanding through friendship and adventure
+  - generic [ref=e93]:
+    - generic [ref=e94]:
+      - strong [ref=e95]: Alexandria's World
+      - text: "- Celebrating cultural diversity with respect, accuracy, and joy"
+    - generic [ref=e96]: 🌍 Traveling to all 193 UN-recognized countries 🌍
+    - generic [ref=e97]: © 2025 Alexandria's World Book Series • Created with love and cultural respect
+```

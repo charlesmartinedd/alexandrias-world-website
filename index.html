@@ -1,145 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexandria's World - Free Interactive Books</title>
-    <meta name="description" content="Join Alexandria on adventures around the world! 55+ free interactive books teaching kids about different cultures, languages, and traditions.">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexandria's World | Review Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <span class="hero__eyebrow">Alexandria's World review studio</span>
+        <h1 class="hero__title">Explore every country before it goes to print</h1>
+        <p class="hero__blurb">
+          Browse beautifully illustrated journeys, track what still needs attention, and leave
+          notes for refinements. Built for an intuitive couch review session with the whole family.
+        </p>
+        <div class="metrics-bar">
+          <div class="metric-chip" data-role="metric-total">0 countries</div>
+          <div class="metric-chip" data-role="metric-complete">0 ready</div>
+          <div class="metric-chip" data-role="metric-incomplete">0 needs work</div>
+          <div class="metric-chip" data-role="metric-flagged">0 flagged</div>
+        </div>
+      </div>
+    </header>
 
-        body {
-            font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', cursive, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
+    <main>
+      <div class="container">
+        <div class="filter-panel">
+          <label class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+              <path
+                d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm6-2 4 4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <input
+              type="search"
+              placeholder="Search by country or code..."
+              autocomplete="off"
+              data-role="search"
+              aria-label="Search countries"
+            />
+          </label>
 
-        .container {
-            background: white;
-            padding: 50px;
-            border-radius: 30px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            text-align: center;
-            max-width: 700px;
-            animation: slideUp 0.6s ease;
-        }
+          <div class="filter-chips">
+            <button class="filter-chip" data-role="status-chip" data-filter="all" data-active="true">
+              Show all
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="complete" data-active="false">
+              Complete
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="incomplete" data-active="false">
+              Needs pages
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="empty" data-active="false">
+              Not started
+            </button>
+          </div>
 
-        @keyframes slideUp {
-            from {
-                transform: translateY(30px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-
-        h1 {
-            font-size: 3em;
-            color: #333;
-            margin-bottom: 20px;
-            line-height: 1.2;
-        }
-
-        .subtitle {
-            font-size: 1.5em;
-            color: #666;
-            margin-bottom: 30px;
-        }
-
-        .features {
-            text-align: left;
-            margin: 30px 0;
-            font-size: 1.2em;
-            line-height: 2;
-        }
-
-        .feature {
-            margin: 15px 0;
-            padding-left: 30px;
-        }
-
-        .cta-button {
-            display: inline-block;
-            padding: 20px 50px;
-            font-size: 1.8em;
-            font-family: inherit;
-            font-weight: bold;
-            background: linear-gradient(135deg, #56CCF2 0%, #2F80ED 100%);
-            color: white;
-            border: none;
-            border-radius: 50px;
-            cursor: pointer;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(47, 128, 237, 0.3);
-            margin-top: 20px;
-        }
-
-        .cta-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(47, 128, 237, 0.4);
-        }
-
-        .emoji {
-            font-size: 1.5em;
-        }
-
-        .footer {
-            margin-top: 30px;
-            color: #999;
-            font-size: 0.9em;
-        }
-
-        @media (max-width: 768px) {
-            .container {
-                padding: 30px 20px;
-            }
-
-            h1 {
-                font-size: 2em;
-            }
-
-            .subtitle {
-                font-size: 1.2em;
-            }
-
-            .cta-button {
-                font-size: 1.4em;
-                padding: 15px 35px;
-            }
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>🌍 Alexandria's World 🌎</h1>
-        <p class="subtitle">Explore 55+ Countries with FREE Interactive Books!</p>
-
-        <div class="features">
-            <div class="feature">📚 <strong>55+ Books</strong> - Africa, Asia, Europe, Americas, Oceania</div>
-            <div class="feature">🎨 <strong>770+ Pages</strong> - Beautiful watercolor illustrations</div>
-            <div class="feature">🌏 <strong>Learn About</strong> - Cultures, landmarks, food, traditions</div>
-            <div class="feature">👶 <strong>Ages 5-9</strong> - Kid-friendly, safe, educational</div>
-            <div class="feature">✨ <strong>100% FREE</strong> - No ads, no sign-ups, just learning!</div>
+          <div class="board-actions">
+            <button class="button button--outline" data-role="export-notes">
+              Export notes
+            </button>
+            <button class="button button--primary" data-role="queue-button">
+              Review queue
+            </button>
+          </div>
         </div>
 
-        <a href="book-viewer/index.html" class="cta-button">
-            🚀 Start Exploring Now!
-        </a>
-
-        <div class="footer">
-            Join Alexandria on adventures around the world 🌟
+        <section class="gallery" data-role="gallery"></section>
+        <div class="empty-state" data-role="empty-state" hidden>
+          <h3>Let's explore</h3>
+          <p data-role="empty-count">No matches yet.</p>
         </div>
+      </div>
+    </main>
+
+    <div class="modal" id="country-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal__panel">
+        <aside class="modal__sidebar" data-role="modal-sidebar"></aside>
+        <section class="modal__viewer">
+          <div class="viewer__toolbar">
+            <div>
+              <h2 data-role="modal-title">Country</h2>
+              <p data-role="modal-subtitle"></p>
+            </div>
+            <div class="viewer__controls">
+              <button data-role="modal-prev" aria-label="Previous page">◀</button>
+              <button data-role="modal-next" aria-label="Next page">▶</button>
+            </div>
+          </div>
+          <img data-role="modal-image" class="viewer__image" alt="" />
+          <div class="viewer__caption" data-role="viewer-caption"></div>
+          <p data-role="modal-progress" class="viewer__meta-line"></p>
+        </section>
+        <aside class="modal__details">
+          <div class="country-meta">
+            <ul class="meta-list" data-role="meta-list"></ul>
+          </div>
+          <div class="notes-section">
+            <label for="notes-field"><strong>Reviewer notes</strong></label>
+            <textarea id="notes-field" data-role="notes-field" placeholder="Leave page-specific notes here..."></textarea>
+          </div>
+          <button class="flag-toggle" data-role="flag-toggle" aria-pressed="false">
+            🚩 Flag this page for follow-up
+          </button>
+        </aside>
+      </div>
+      <button class="modal__close" data-role="modal-close" aria-label="Close viewer">×</button>
     </div>
-</body>
+
+    <section class="review-queue" id="review-queue">
+      <div class="queue__header">
+        <h3>Flagged for revision</h3>
+        <button class="button button--outline" data-role="queue-close">Close</button>
+      </div>
+      <div class="queue__items" data-role="queue-items"></div>
+    </section>
+
+    <script type="module" src="assets/scripts/app.js"></script>
+  </body>
 </html>

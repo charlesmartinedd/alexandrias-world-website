@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandria's World - Cultural Adventures for Young Explorers</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.95)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23f0f8ff" width="1200" height="400"/></svg>');
+            border-radius: 20px;
+            padding: 60px;
+            text-align: center;
+            margin-bottom: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border: 5px solid #fff;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            color: #667eea;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            font-weight: 800;
+        }
+
+        .hero .subtitle {
+            font-size: 1.8em;
+            color: #764ba2;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
+
+        .hero .description {
+            font-size: 1.3em;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 18px 40px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(102,126,234,0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 3px solid #667eea;
+        }
+
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Stats Section */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 1.2em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* Featured Section */
+        .section {
+            background: white;
+            border-radius: 20px;
+            padding: 50px;
+            margin-bottom: 40px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+
+        .section h2 {
+            font-size: 2.5em;
+            color: #667eea;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .countries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .country-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .country-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+        }
+
+        .country-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-bottom: 4px solid #667eea;
+        }
+
+        .country-info {
+            padding: 25px;
+        }
+
+        .country-name {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .country-description {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .flag-emoji {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .feature-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .feature-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        /* Resources Section */
+        .resources-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .resource-item {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 6px solid #667eea;
+            transition: all 0.3s ease;
+        }
+
+        .resource-item:hover {
+            background: #e9ecef;
+            transform: translateX(10px);
+        }
+
+        .resource-title {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 12px;
+        }
+
+        .resource-link {
+            color: #764ba2;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+
+        .resource-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            background: rgba(255,255,255,0.95);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin-top: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .footer-text {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            font-size: 2em;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-link:hover {
+            transform: scale(1.2);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.2em;
+            }
+
+            .hero .subtitle {
+                font-size: 1.3em;
+            }
+
+            .hero .description {
+                font-size: 1.1em;
+            }
+
+            .section h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero animate-in">
+            <h1>🌍 Alexandria's World</h1>
+            <div class="subtitle">Cultural Adventures for Young Explorers</div>
+            <div class="description">
+                Join Alexandria as she travels to 193 countries, discovering traditional clothing,
+                iconic landmarks, and cultural treasures through beautiful watercolor illustrations.
+                Each book is a journey of education, diversity, and wonder!
+            </div>
+            <div class="cta-buttons">
+                <a href="#countries" class="btn btn-primary">Explore Countries</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+                <a href="#resources" class="btn btn-secondary">Resources</a>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats animate-in">
+            <div class="stat-card">
+                <div class="stat-number">193</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2,702</div>
+                <div class="stat-label">Illustrations</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">14</div>
+                <div class="stat-label">Pages per Book</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Cultural Accuracy</div>
+            </div>
+        </div>
+
+        <!-- Sample Books Section -->
+        <div id="countries" class="section animate-in">
+            <h2>📚 Featured Sample Books</h2>
+            <div class="countries-grid">
+                <div class="country-card">
+                    <span class="flag-emoji">🇯🇵</span>
+                    <div class="country-info">
+                        <div class="country-name">Japan</div>
+                        <div class="country-description">
+                            Alexandria explores Tokyo, wears a beautiful kimono, visits Mount Fuji,
+                            and experiences cherry blossom season in this enchanting journey through Japan.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="country-card">
+                    <span class="flag-emoji">🇧🇷</span>
+                    <div class="country-info">
+                        <div class="country-name">Brazil</div>
+                        <div class="country-description">
+                            Discover the Amazon rainforest, carnival celebrations, and traditional
+                            Festa Junina dress as Alexandria explores the vibrant culture of Brazil.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="country-card">
+                    <span class="flag-emoji">🇲🇽</span>
+                    <div class="country-info">
+                        <div class="country-name">Mexico</div>
+                        <div class="country-description">
+                            Experience ancient pyramids, colorful traditional embroidered dresses,
+                            and rich Mexican heritage through Alexandria's adventures.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="section animate-in">
+            <h2>✨ What Makes This Special</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <div class="feature-title">Beautiful Watercolors</div>
+                    <div class="feature-text">
+                        Soft, professional children's book illustrations with gentle color blending
+                        and authentic cultural details
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">👗</div>
+                    <div class="feature-title">Traditional Clothing</div>
+                    <div class="feature-text">
+                        Alexandria wears authentic traditional children's clothing from each country,
+                        researched for cultural accuracy
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🏛️</div>
+                    <div class="feature-title">Iconic Landmarks</div>
+                    <div class="feature-text">
+                        Featuring famous architectural wonders, monuments, and natural landmarks
+                        unique to each nation
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌸</div>
+                    <div class="feature-title">Native Nature</div>
+                    <div class="feature-text">
+                        Authentic plants, flowers, and natural elements specific to each country's
+                        environment and ecosystem
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-title">Educational Value</div>
+                    <div class="feature-text">
+                        Teaching children about world cultures, diversity, geography, and global
+                        citizenship through storytelling
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">❤️</div>
+                    <div class="feature-title">Cultural Respect</div>
+                    <div class="feature-text">
+                        Created with cultural sensitivity guidelines, celebrating each nation's
+                        unique heritage with dignity
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resources Section -->
+        <div id="resources" class="section animate-in">
+            <h2>📖 Resources & Information</h2>
+            <div class="resources-list">
+                <div class="resource-item">
+                    <div class="resource-title">📂 Sample Books</div>
+                    <div class="resource-text">
+                        <a href="Sample-Books/" class="resource-link">View Sample Book Pages →</a>
+                    </div>
+                </div>
+
+                <div class="resource-item">
+                    <div class="resource-title">🌎 Countries Database</div>
+                    <div class="resource-text">
+                        <a href="Countries/" class="resource-link">Explore All 193 Countries →</a>
+                    </div>
+                </div>
+
+                <div class="resource-item">
+                    <div class="resource-title">📚 Cultural Research</div>
+                    <div class="resource-text">
+                        <a href="Resources/" class="resource-link">View Research & Guidelines →</a>
+                    </div>
+                </div>
+
+                <div class="resource-item">
+                    <div class="resource-title">🎨 About the Project</div>
+                    <div class="resource-text">
+                        193 UN-recognized countries • 2,702 total illustrations • 14 pages per book
+                    </div>
+                </div>
+
+                <div class="resource-item">
+                    <div class="resource-title">👩‍🏫 For Educators</div>
+                    <div class="resource-text">
+                        Perfect for schools, libraries, and homeschooling programs teaching global cultures
+                    </div>
+                </div>
+
+                <div class="resource-item">
+                    <div class="resource-title">✨ Series Character</div>
+                    <div class="resource-text">
+                        Alexandria - A young explorer with curly brown hair, spreading cultural understanding
+                        through friendship and adventure
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-text">
+                <strong>Alexandria's World</strong> - Celebrating cultural diversity with respect, accuracy, and joy
+            </div>
+            <div class="footer-text">
+                🌍 Traveling to all 193 UN-recognized countries 🌍
+            </div>
+            <div style="margin-top: 30px; color: #999; font-size: 1em;">
+                © 2025 Alexandria's World Book Series • Created with love and cultural respect
+            </div>
+        </div>
+    </div>
+</body>
+</html>
