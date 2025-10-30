@@ -137,9 +137,7 @@
 
     /* Show spine text ONLY on hover */
     .book:hover .book-spine {
-      opacity: 1 !important;   /* Override hidden state */
-      visibility: visible !important; /* Make visible */
-      transition: opacity 0.3s ease, visibility 0s 0s; /* Immediate visibility, fade opacity */
+      display: block !important;  /* Show text on hover */
     }
 
     .book:nth-child(4n+1) { background: var(--leather-burgundy); }
@@ -172,10 +170,8 @@
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      pointer-events: none;
-      opacity: 0 !important;
-      visibility: hidden;
-      transition: opacity 0.3s ease, visibility 0s 0.3s;
+      pointer-events: none;      /* CRITICAL: Let clicks pass through */
+      display: none;             /* CRITICAL: Completely remove from layout when hidden */
       z-index: 100;
     }
 
