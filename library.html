@@ -97,18 +97,14 @@
       border-top: 1px solid rgba(212, 175, 55, 0.2);
     }
 
+    /* HIDE SCROLLBAR COMPLETELY */
     .shelf::-webkit-scrollbar {
-      height: 8px;
+      display: none;
     }
 
-    .shelf::-webkit-scrollbar-track {
-      background: rgba(0, 0, 0, 0.3);
-      border-radius: 4px;
-    }
-
-    .shelf::-webkit-scrollbar-thumb {
-      background: var(--gold);
-      border-radius: 4px;
+    .shelf {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;     /* Firefox */
     }
 
     /* Book Spine */
@@ -121,30 +117,20 @@
       transform-style: preserve-3d;
       transition: all 0.3s ease;
       border-radius: 3px 0 0 3px;
-      box-shadow:
-        -2px 0 8px rgba(0, 0, 0, 0.4),
-        inset 2px 0 4px rgba(255, 255, 255, 0.1);
+      /* REMOVED SHADOWS */
     }
 
-    .book::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.3), transparent 20%, transparent 80%, rgba(0, 0, 0, 0.2));
-      border-radius: 3px 0 0 3px;
-      pointer-events: none;
-    }
+    /* REMOVED .book::before shadow overlay */
 
     .book:hover {
       transform: translateX(-15px) scale(1.05);
-      box-shadow:
-        -5px 0 20px rgba(0, 0, 0, 0.6),
-        0 0 30px rgba(212, 175, 55, 0.4),
-        inset 2px 0 6px rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.6); /* Subtle gold glow on hover */
       z-index: 10;
+    }
+
+    /* Show spine text ONLY on hover */
+    .book:hover .book-spine {
+      opacity: 1;
     }
 
     .book:nth-child(4n+1) { background: var(--leather-burgundy); }
@@ -159,25 +145,25 @@
       transform: translateX(-50%);
       writing-mode: vertical-rl;
       text-orientation: mixed;
-      font-size: 1.5rem;  /* MUCH BIGGER: 24px instead of 16px */
-      font-weight: 900;    /* BOLDER: 900 instead of 700 */
-      letter-spacing: 3px; /* MORE SPACING: 3px instead of 2px */
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 3px;
       color: #ffffff;
-      background: rgba(0, 0, 0, 0.4); /* DARK BACKGROUND for contrast */
-      padding: 15px 8px;   /* INCREASED padding */
+      background: rgba(0, 0, 0, 0.7); /* DARKER background for better contrast on hover */
+      padding: 15px 8px;
       border-radius: 4px;
       text-shadow:
-        0 0 5px rgba(212, 175, 55, 1),      /* STRONGER gold glow */
-        0 0 10px rgba(212, 175, 55, 0.8),   /* WIDER glow */
-        0 0 15px rgba(212, 175, 55, 0.6),   /* EVEN WIDER */
-        2px 2px 4px rgba(0, 0, 0, 1),       /* STRONGER shadow */
-        3px 3px 6px rgba(0, 0, 0, 0.8);     /* DEEPER shadow */
+        0 0 5px rgba(212, 175, 55, 1),
+        0 0 10px rgba(212, 175, 55, 0.8),
+        2px 2px 4px rgba(0, 0, 0, 1);
       width: 180px;
       text-align: center;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
-      pointer-events: none; /* CRITICAL: Let clicks pass through to book */
+      pointer-events: none;
+      opacity: 0; /* HIDDEN by default */
+      transition: opacity 0.3s ease; /* SMOOTH fade in on hover */
     }
 
     /* Book Modal (Opened Book) */
