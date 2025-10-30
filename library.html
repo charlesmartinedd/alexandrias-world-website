@@ -65,6 +65,13 @@
       padding: 40px 20px;
       overflow-y: auto;
       gap: 50px;
+      /* HIDE VERTICAL SCROLLBAR */
+      scrollbar-width: none; /* Firefox */
+      -ms-overflow-style: none; /* IE/Edge */
+    }
+
+    .bookshelf-container::-webkit-scrollbar {
+      display: none; /* Chrome/Safari */
     }
 
     /* Individual Shelf */
@@ -147,28 +154,35 @@
       transform: translateX(-50%);
       writing-mode: vertical-rl;
       text-orientation: mixed;
-      font-size: 1.2rem;     /* Smaller to fit in book width */
+      font-size: clamp(0.75rem, 1.2rem, 1.2rem); /* Auto-scale for long names */
       font-weight: 900;
-      letter-spacing: 2px;
+      letter-spacing: 1.5px;
       color: #ffffff;
-      background: rgba(0, 0, 0, 0.85); /* Darker for contrast */
-      padding: 10px 4px;      /* Reduced padding to fit */
+      background: rgba(0, 0, 0, 0.85);
+      padding: 10px 4px;
       border-radius: 3px;
       text-shadow:
         0 0 5px rgba(212, 175, 55, 1),
         0 0 8px rgba(212, 175, 55, 0.8),
         2px 2px 4px rgba(0, 0, 0, 1);
-      width: 42px;             /* MATCH book width (50px - padding) */
-      max-width: 42px;         /* Prevent overflow */
+      width: 42px;
+      max-width: 42px;
+      max-height: 180px;       /* Limit height */
       text-align: center;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
       pointer-events: none;
-      opacity: 0 !important;   /* FORCE hidden by default */
-      visibility: hidden;      /* Extra safety - truly invisible */
-      transition: opacity 0.3s ease, visibility 0s 0.3s; /* Delay visibility */
-      z-index: 100;            /* Ensure it's on top when visible */
+      opacity: 0 !important;
+      visibility: hidden;
+      transition: opacity 0.3s ease, visibility 0s 0.3s;
+      z-index: 100;
+    }
+
+    /* Smaller font for long country names */
+    .book-spine[data-long="true"] {
+      font-size: 0.9rem;
+      letter-spacing: 1px;
     }
 
     /* Book Modal (Opened Book) */
