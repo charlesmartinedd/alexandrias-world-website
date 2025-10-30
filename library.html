@@ -71,11 +71,11 @@
     .shelf {
       position: relative;
       display: flex;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;       /* WRAP books to multiple rows */
       gap: 8px;
       padding: 20px 40px 40px;
-      overflow-x: auto;
-      overflow-y: hidden;
+      overflow-x: hidden;    /* NO horizontal scrolling */
+      overflow-y: visible;   /* Allow content to flow */
       min-height: 280px;
       background: linear-gradient(to bottom, transparent 0%, var(--wood-light) 95%, var(--wood-medium) 100%);
       border-radius: 8px 8px 0 0;
