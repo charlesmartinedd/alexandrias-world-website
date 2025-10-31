@@ -1,0 +1,95 @@
+{
+  "country": "Azerbaijan",
+  "code": "AZ",
+  "generation_date": "2025-10-28T14:21:59.314847",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:12.792000"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:33.857718"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:52.731343"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:10.221155"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Leyla",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:31.743265"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Leyla's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:50.126557"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:10.920450"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:32.679150"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Flame Towers in Baku Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:52.128390"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Old City walls",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:13.592083"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Gobustan rock art",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:33.842837"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning mugham music",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:55.282165"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:26:17.173394"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:26:36.759541"
+    }
+  ],
+  "duration_seconds": 283.45
+}

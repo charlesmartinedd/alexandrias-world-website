@@ -1,0 +1,95 @@
+{
+  "country": "Brunei",
+  "code": "BN",
+  "generation_date": "2025-10-28T14:40:40.419391",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:57.570081"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:15.229304"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:31.984389"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:50.521126"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Nur",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:10.565108"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Nur's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:31.436672"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:50.709599"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:11.161854"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Sultan Omar Ali Saifuddien Mosque Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:32.380993"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Kampong Ayer water village",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:50.676512"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Ulu Temburong rainforest",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:08.775683"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning silat martial arts",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:29.853441"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:49.178812"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:45:07.077321"
+    }
+  ],
+  "duration_seconds": 272.66
+}

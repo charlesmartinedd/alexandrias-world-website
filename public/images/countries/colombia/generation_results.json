@@ -1,0 +1,95 @@
+{
+  "country": "Colombia",
+  "code": "CO",
+  "generation_date": "2025-10-28T14:59:09.679494",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:59:24.339740"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:59:44.153735"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T15:00:03.087602"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T15:00:22.807319"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Valentina",
+      "success": true,
+      "timestamp": "2025-10-28T15:00:43.242478"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Valentina's Family",
+      "success": true,
+      "timestamp": "2025-10-28T15:01:03.220259"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T15:01:25.010003"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T15:01:45.599462"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Cartagena old city walls Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T15:02:05.488734"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Tayrona National Park",
+      "success": true,
+      "timestamp": "2025-10-28T15:02:26.136982"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Coffee region hills",
+      "success": true,
+      "timestamp": "2025-10-28T15:02:45.768191"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning cumbia dancing",
+      "success": true,
+      "timestamp": "2025-10-28T15:03:07.446496"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T15:03:30.450885"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T15:03:51.565362"
+    }
+  ],
+  "duration_seconds": 287.89
+}

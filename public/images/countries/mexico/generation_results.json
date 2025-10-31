@@ -1,0 +1,95 @@
+{
+  "country": "Mexico",
+  "code": "MX",
+  "generation_date": "2025-10-28T12:48:58.004856",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T12:49:11.417272"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T12:49:34.552988"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T12:49:56.901514"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T12:50:17.189594"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Luna",
+      "success": true,
+      "timestamp": "2025-10-28T12:50:43.039873"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Luna's Family",
+      "success": true,
+      "timestamp": "2025-10-28T12:51:08.574414"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T12:51:32.763596"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T12:51:53.505723"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Chichen Itza pyramid Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T12:52:14.428407"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Teotihuacan",
+      "success": true,
+      "timestamp": "2025-10-28T12:52:35.634092"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Cancun beaches",
+      "success": true,
+      "timestamp": "2025-10-28T12:52:57.004131"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning folkloric dance",
+      "success": true,
+      "timestamp": "2025-10-28T12:53:16.720042"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T12:53:37.499571"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T12:53:59.465462"
+    }
+  ],
+  "duration_seconds": 307.47
+}

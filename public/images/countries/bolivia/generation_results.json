@@ -1,0 +1,95 @@
+{
+  "country": "Bolivia",
+  "code": "BO",
+  "generation_date": "2025-10-28T14:36:04.584378",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:20.247272"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:38.584550"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:58.590248"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:16.952192"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Sofia",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:36.207375"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Sofia's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:54.767315"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:12.649945"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:31.506369"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Salar de Uyuni salt flats Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:53.060591"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Lake Titicaca",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:11.046109"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "La Paz and Death Road",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:32.028959"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional pan flute music",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:54.264068"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:14.386537"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:31.740326"
+    }
+  ],
+  "duration_seconds": 273.16
+}

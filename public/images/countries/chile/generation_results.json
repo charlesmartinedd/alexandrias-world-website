@@ -1,0 +1,95 @@
+{
+  "country": "Chile",
+  "code": "CL",
+  "generation_date": "2025-10-28T14:54:26.194503",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:38.879623"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:57.385680"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:19.702869"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:38.734859"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Catalina",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:57.714868"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Catalina's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:24.212545"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:47.498634"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:11.486153"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Easter Island moai statues Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:30.261463"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Atacama Desert",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:50.745162"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Torres del Paine mountains",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:10.606317"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning cueca dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:30.915654"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:49.213795"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:59:11.655439"
+    }
+  ],
+  "duration_seconds": 291.46
+}

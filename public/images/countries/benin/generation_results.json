@@ -1,0 +1,95 @@
+{
+  "country": "Benin",
+  "code": "BJ",
+  "generation_date": "2025-10-28T14:35:48.495290",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:04.971361"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:24.649646"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:36:42.086268"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:03.144755"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Adjovi",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:23.152561"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Adjovi's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:37:44.487233"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:03.854286"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:23.167883"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Royal Palaces of Abomey Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:38:42.192449"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Ganvi\u00e9 stilt village",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:01.533069"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Pendjari National Park",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:21.794554"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional drum music",
+      "success": true,
+      "timestamp": "2025-10-28T14:39:43.160093"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:01.269802"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:21.195724"
+    }
+  ],
+  "duration_seconds": 278.7
+}

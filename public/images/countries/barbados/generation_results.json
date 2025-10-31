@@ -1,0 +1,95 @@
+{
+  "country": "Barbados",
+  "code": "BB",
+  "generation_date": "2025-10-28T14:26:45.235694",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:03.208658"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:22.335207"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:41.863967"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:01.256546"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Zara",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:20.490089"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Zara's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:42.844374"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:01.692943"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:19.275937"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Harrison's Cave Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:39.787430"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Carlisle Bay beaches",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:00.889132"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Bridgetown historic area",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:21.458979"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning crop over festival dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:41.271019"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:31:00.601509"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:31:20.326223"
+    }
+  ],
+  "duration_seconds": 281.09
+}

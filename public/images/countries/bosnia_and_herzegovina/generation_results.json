@@ -1,0 +1,95 @@
+{
+  "country": "Bosnia and Herzegovina",
+  "code": "BA",
+  "generation_date": "2025-10-28T14:40:27.203260",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:39.824956"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:57.006352"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:15.004335"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:33.588305"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Amira",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:52.364127"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Amira's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:11.241125"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:30.039152"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:47.655634"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Stari Most bridge in Mostar Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:05.939908"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Sarajevo old town",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:25.843663"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Kravica waterfall",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:46.017960"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning sevdah music",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:05.277434"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:23.269723"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:47.807037"
+    }
+  ],
+  "duration_seconds": 266.6
+}

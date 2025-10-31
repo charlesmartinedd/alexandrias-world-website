@@ -1,0 +1,93 @@
+{
+  "generation_date": "2025-10-28T10:53:03.468236",
+  "duration_seconds": 621.966616,
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T10:53:22.548028"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T10:54:12.115257"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T10:54:55.251168"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T10:55:38.521465"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Sakura",
+      "success": true,
+      "timestamp": "2025-10-28T10:56:25.468555"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Sakura's Family",
+      "success": true,
+      "timestamp": "2025-10-28T10:57:13.441363"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal in Tatami Room",
+      "success": true,
+      "timestamp": "2025-10-28T10:58:01.496762"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T10:58:47.275115"
+    },
+    {
+      "page_id": "page_09_akihabara",
+      "title": "Akihabara Anime District Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T10:59:36.576514"
+    },
+    {
+      "page_id": "page_10_nara_deer",
+      "title": "Feeding Deer in Nara",
+      "success": true,
+      "timestamp": "2025-10-28T11:00:20.155973"
+    },
+    {
+      "page_id": "page_11_fushimi_inari",
+      "title": "Fushimi Inari Shrine",
+      "success": true,
+      "timestamp": "2025-10-28T11:01:09.128513"
+    },
+    {
+      "page_id": "page_12_origami",
+      "title": "Learning Origami",
+      "success": true,
+      "timestamp": "2025-10-28T11:01:53.221535"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T11:02:38.492194"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T11:03:25.434422"
+    }
+  ]
+}

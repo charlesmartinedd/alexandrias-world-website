@@ -1,0 +1,95 @@
+{
+  "country": "Algeria",
+  "code": "DZ",
+  "generation_date": "2025-10-28T14:07:16.452151",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:07:52.389475"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:08:14.605648"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:08:37.097399"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:14.762518"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Amina",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:35.781032"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Amina's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:53.379419"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:13.851000"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:35.080203"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Sahara Desert dunes Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:53.512135"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Casbah of Algiers",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:12.948504"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Roman ruins at Timgad",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:30.959771"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning Ra\u00ef music",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:49.939058"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:12:10.665174"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:12:29.125712"
+    }
+  ],
+  "duration_seconds": 318.67
+}

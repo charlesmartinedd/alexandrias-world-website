@@ -1,0 +1,17 @@
+{
+  "country": "thailand",
+  "timestamp": "2025-10-28T12:43:38.986392",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "14/14"
+  },
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Cover title needs manual verification"
+  ]
+}

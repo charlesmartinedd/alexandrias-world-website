@@ -1,0 +1,95 @@
+{
+  "country": "Andorra",
+  "code": "AD",
+  "generation_date": "2025-10-28T14:12:27.396086",
+  "total_pages": 14,
+  "successful": 13,
+  "failed": 1,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:12:41.641903"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:13:01.968608"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:13:23.306104"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:13:40.567165"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Anna",
+      "success": true,
+      "timestamp": "2025-10-28T14:14:04.097527"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Anna's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:14:28.848851"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": false,
+      "timestamp": "2025-10-28T14:14:41.133711"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:15:01.310736"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Vall del Madriu-Perafita-Claror valley Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:15:22.543877"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Sant Joan de Caselles church",
+      "success": true,
+      "timestamp": "2025-10-28T14:15:41.193383"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Pyrenees mountain peaks",
+      "success": true,
+      "timestamp": "2025-10-28T14:15:59.297939"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning skiing in the mountains",
+      "success": true,
+      "timestamp": "2025-10-28T14:16:18.226908"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:16:41.537892"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:17:04.096107"
+    }
+  ],
+  "duration_seconds": 282.7
+}

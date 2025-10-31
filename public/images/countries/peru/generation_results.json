@@ -1,0 +1,95 @@
+{
+  "country": "Peru",
+  "code": "PE",
+  "generation_date": "2025-10-28T12:54:07.986811",
+  "total_pages": 14,
+  "successful": 13,
+  "failed": 1,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T12:54:24.977360"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T12:54:46.888236"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T12:55:08.119633"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T12:55:35.637075"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Sofia",
+      "success": true,
+      "timestamp": "2025-10-28T12:55:56.870485"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Sofia's Family",
+      "success": true,
+      "timestamp": "2025-10-28T12:56:16.436226"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": false,
+      "timestamp": "2025-10-28T12:56:56.447161"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T12:57:15.274931"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Machu Picchu Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T12:57:37.206391"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Lake Titicaca",
+      "success": true,
+      "timestamp": "2025-10-28T12:58:02.014126"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Amazon rainforest",
+      "success": true,
+      "timestamp": "2025-10-28T12:58:24.837261"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning pan flute music",
+      "success": true,
+      "timestamp": "2025-10-28T12:58:44.802472"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T12:59:04.519690"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T12:59:23.944439"
+    }
+  ],
+  "duration_seconds": 321.96
+}

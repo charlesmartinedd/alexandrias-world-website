@@ -1,0 +1,95 @@
+{
+  "country": "Argentina",
+  "code": "AR",
+  "generation_date": "2025-10-28T14:17:10.102443",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:17:23.897598"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:17:42.120598"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:03.760726"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:20.808923"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Valentina",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:39.067006"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Valentina's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:57.912106"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:19:17.610579"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:19:36.797313"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Iguazu Falls Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:02.931857"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Perito Moreno Glacier",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:24.633917"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Buenos Aires colorful La Boca neighborhood",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:43.333881"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning tango dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:01.875241"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:20.137236"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:39.142250"
+    }
+  ],
+  "duration_seconds": 275.04
+}

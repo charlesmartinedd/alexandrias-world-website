@@ -1,0 +1,95 @@
+{
+  "country": "Botswana",
+  "code": "BW",
+  "generation_date": "2025-10-28T14:40:37.747231",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:40:51.584299"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:09.987954"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:29.925024"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:41:47.396597"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Thato",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:07.648814"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Thato's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:26.835827"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:42:47.808723"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:07.212832"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Okavango Delta Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:29.283153"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Chobe National Park elephants",
+      "success": true,
+      "timestamp": "2025-10-28T14:43:50.302873"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Makgadikgadi salt pans",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:09.745673"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional basket weaving",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:28.743852"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:44:48.190456"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:45:06.808838"
+    }
+  ],
+  "duration_seconds": 275.06
+}

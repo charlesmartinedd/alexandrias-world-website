@@ -1,0 +1,95 @@
+{
+  "country": "India",
+  "code": "IN",
+  "generation_date": "2025-10-28T15:36:41.950421",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T15:36:57.446385"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T15:37:17.785860"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T15:37:37.189082"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T15:37:58.989268"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Priya",
+      "success": true,
+      "timestamp": "2025-10-28T15:38:19.404663"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Priya's Family",
+      "success": true,
+      "timestamp": "2025-10-28T15:38:40.550262"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T15:39:00.716226"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T15:39:23.210271"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Taj Mahal Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T15:39:42.942756"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Red Fort",
+      "success": true,
+      "timestamp": "2025-10-28T15:40:04.491710"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Holi festival celebration",
+      "success": true,
+      "timestamp": "2025-10-28T15:40:25.508768"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning classical dance",
+      "success": true,
+      "timestamp": "2025-10-28T15:40:45.414536"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T15:41:05.151341"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T15:41:25.833214"
+    }
+  ],
+  "duration_seconds": 289.88
+}

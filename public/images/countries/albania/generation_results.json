@@ -1,0 +1,95 @@
+{
+  "country": "Albania",
+  "code": "AL",
+  "generation_date": "2025-10-28T14:07:16.451875",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:07:53.226665"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:08:15.508604"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:08:34.207024"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:11.850499"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Arta",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:36.525101"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Arta's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:09:54.493880"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:13.916430"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:35.901157"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Berat's white Ottoman houses Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:10:55.887961"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Butrint ancient ruins",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:14.634417"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Albanian Riviera beaches",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:36.785426"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning folk dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:11:55.962260"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:12:14.947374"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:12:33.325935"
+    }
+  ],
+  "duration_seconds": 322.87
+}

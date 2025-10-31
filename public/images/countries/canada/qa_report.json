@@ -1,0 +1,17 @@
+{
+  "country": "canada",
+  "timestamp": "2025-10-28T12:48:56.770503",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "14/14"
+  },
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Cover title needs manual verification"
+  ]
+}

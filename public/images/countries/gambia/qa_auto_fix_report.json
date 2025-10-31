@@ -1,0 +1,27 @@
+{
+  "country": "gambia",
+  "timestamp": "2025-10-28T20:31:42.625734",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "0/14"
+  },
+  "passed": false,
+  "issues": [
+    "Only 13/14 pages found"
+  ],
+  "warnings": [
+    "Cover title needs manual verification",
+    "Cover title needs manual verification"
+  ],
+  "fixes_applied": [
+    "Regenerated 1/1 missing pages"
+  ],
+  "regenerated_pages": [
+    "page_04_plane_window"
+  ],
+  "auto_fix_enabled": true
+}

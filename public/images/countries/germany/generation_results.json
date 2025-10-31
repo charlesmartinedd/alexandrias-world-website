@@ -1,0 +1,95 @@
+{
+  "country": "Germany",
+  "code": "DE",
+  "generation_date": "2025-10-28T12:38:44.561532",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T12:39:00.677336"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T12:39:21.924922"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T12:39:44.900574"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T12:40:05.108478"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Greta",
+      "success": true,
+      "timestamp": "2025-10-28T12:40:25.634905"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Greta's Family",
+      "success": true,
+      "timestamp": "2025-10-28T12:40:44.095264"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:05.659334"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:26.379370"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Brandenburg Gate Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:47.887481"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Neuschwanstein Castle",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:09.722975"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Black Forest",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:29.421237"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning to play accordion",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:56.137519"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T12:43:18.252835"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T12:43:38.455183"
+    }
+  ],
+  "duration_seconds": 299.89
+}

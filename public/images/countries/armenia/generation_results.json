@@ -1,0 +1,95 @@
+{
+  "country": "Armenia",
+  "code": "AM",
+  "generation_date": "2025-10-28T14:17:20.535956",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:17:36.900643"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:17:54.358865"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:11.518780"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:30.482857"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Ani",
+      "success": true,
+      "timestamp": "2025-10-28T14:18:49.046695"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Ani's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:19:09.965437"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:19:29.685698"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:19:50.634988"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Mount Ararat view Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:10.583729"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Geghard Monastery",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:29.808175"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Lake Sevan",
+      "success": true,
+      "timestamp": "2025-10-28T14:20:49.121267"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning duduk flute music",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:13.620118"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:32.086921"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:21:53.309749"
+    }
+  ],
+  "duration_seconds": 278.77
+}

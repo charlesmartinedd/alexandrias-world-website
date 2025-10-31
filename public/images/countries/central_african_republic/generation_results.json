@@ -1,0 +1,95 @@
+{
+  "country": "Central African Republic",
+  "code": "CF",
+  "generation_date": "2025-10-28T14:54:12.147754",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:28.335908"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:46.387754"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:07.506662"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:28.412494"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Grace",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:50.214764"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Grace's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:16.736107"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:37.225307"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:56.785038"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Dzanga-Sangha rainforest Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:20.928691"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Manovo-Gounda National Park",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:45.012675"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Bangui riverside",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:08.681773"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional storytelling",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:30.289989"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:48.528605"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:59:08.281895"
+    }
+  ],
+  "duration_seconds": 302.14
+}

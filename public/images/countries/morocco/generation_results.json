@@ -1,0 +1,95 @@
+{
+  "country": "Morocco",
+  "code": "MA",
+  "generation_date": "2025-10-28T12:40:15.081957",
+  "total_pages": 14,
+  "successful": 13,
+  "failed": 1,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T12:40:28.649102"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T12:40:49.017634"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:11.583770"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:31.220721"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Yasmine",
+      "success": true,
+      "timestamp": "2025-10-28T12:41:50.792728"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Yasmine's Family",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:15.463386"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:35.701193"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T12:42:56.689886"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Hassan II Mosque Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T12:43:17.756180"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Marrakech souks",
+      "success": true,
+      "timestamp": "2025-10-28T12:43:39.374600"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Sahara Desert",
+      "success": false,
+      "timestamp": "2025-10-28T12:43:51.959657"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning to create mosaics",
+      "success": true,
+      "timestamp": "2025-10-28T12:44:21.327774"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T12:44:48.057967"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T12:45:12.224786"
+    }
+  ],
+  "duration_seconds": 303.14
+}

@@ -1,0 +1,35 @@
+{
+  "country": "czech_republic",
+  "timestamp": "2025-10-28T20:28:55.047952",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": false
+  },
+  "passed": false,
+  "issues": [
+    "Only 6/14 pages found",
+    "Cover page not found"
+  ],
+  "warnings": [
+    "generation_results.json not found",
+    "Cover title needs manual verification",
+    "generation_results.json not found"
+  ],
+  "fixes_applied": [
+    "Regenerated 8/8 missing pages"
+  ],
+  "regenerated_pages": [
+    "page_01_cover",
+    "page_08_cultural_story",
+    "page_09_landmark_visit",
+    "page_10_second_landmark",
+    "page_11_third_landmark",
+    "page_12_activity",
+    "page_13_playground",
+    "page_14_goodbye"
+  ],
+  "auto_fix_enabled": true
+}

@@ -1,0 +1,27 @@
+{
+  "country": "peru",
+  "timestamp": "2025-10-28T20:32:10.279298",
+  "checks": {
+    "pages_exist": false,
+    "page_count": 13,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "13/14"
+  },
+  "passed": false,
+  "issues": [
+    "Only 13/14 pages found",
+    "Cannot auto-fix: Country data not found",
+    "Only 13/14 pages found"
+  ],
+  "warnings": [
+    "Cover title needs manual verification",
+    "1 pages failed during generation",
+    "Cover title needs manual verification",
+    "1 pages failed during generation"
+  ],
+  "fixes_applied": [],
+  "regenerated_pages": [],
+  "auto_fix_enabled": true
+}

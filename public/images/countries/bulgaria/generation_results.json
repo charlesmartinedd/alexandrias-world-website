@@ -1,0 +1,95 @@
+{
+  "country": "Bulgaria",
+  "code": "BG",
+  "generation_date": "2025-10-28T14:44:53.811316",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:45:08.635558"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:45:27.309938"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:45:45.172277"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:46:03.453896"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Elena",
+      "success": true,
+      "timestamp": "2025-10-28T14:46:23.088658"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Elena's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:46:42.689215"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:47:01.675353"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:47:21.143078"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Rila Monastery Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:47:39.402607"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Rose Valley",
+      "success": true,
+      "timestamp": "2025-10-28T14:48:01.654930"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Black Sea coast",
+      "success": true,
+      "timestamp": "2025-10-28T14:48:25.342597"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional horo dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:48:44.444544"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:49:04.770340"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:49:22.638415"
+    }
+  ],
+  "duration_seconds": 274.83
+}

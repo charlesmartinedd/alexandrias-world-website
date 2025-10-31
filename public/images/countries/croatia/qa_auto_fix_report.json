@@ -1,0 +1,38 @@
+{
+  "country": "croatia",
+  "timestamp": "2025-10-28T20:24:44.260156",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "0/14"
+  },
+  "passed": false,
+  "issues": [
+    "Only 2/14 pages found"
+  ],
+  "warnings": [
+    "Cover title needs manual verification",
+    "Cover title needs manual verification"
+  ],
+  "fixes_applied": [
+    "Regenerated 12/12 missing pages"
+  ],
+  "regenerated_pages": [
+    "page_03_arrival",
+    "page_04_plane_window",
+    "page_05_meeting_friend",
+    "page_06_with_family",
+    "page_07_traditional_meal",
+    "page_08_cultural_story",
+    "page_09_landmark_visit",
+    "page_10_second_landmark",
+    "page_11_third_landmark",
+    "page_12_activity",
+    "page_13_playground",
+    "page_14_goodbye"
+  ],
+  "auto_fix_enabled": true
+}

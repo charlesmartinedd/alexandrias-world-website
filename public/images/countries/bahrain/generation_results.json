@@ -1,0 +1,95 @@
+{
+  "country": "Bahrain",
+  "code": "BH",
+  "generation_date": "2025-10-28T14:26:35.445870",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:26:49.071476"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:08.339015"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:28.414780"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:27:46.747684"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Noor",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:03.694057"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Noor's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:25.431803"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:28:44.715372"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:04.309052"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Bahrain Fort Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:22.343969"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Tree of Life in desert",
+      "success": true,
+      "timestamp": "2025-10-28T14:29:42.233059"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Manama souq",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:05.079358"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning Arabic calligraphy",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:23.124547"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:40.713283"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:30:59.570983"
+    }
+  ],
+  "duration_seconds": 270.13
+}

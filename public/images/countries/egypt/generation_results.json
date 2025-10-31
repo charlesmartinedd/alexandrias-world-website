@@ -1,0 +1,95 @@
+{
+  "country": "Egypt",
+  "code": "EG",
+  "generation_date": "2025-10-28T15:21:22.773164",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T15:21:37.292494"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T15:21:58.904833"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T15:22:19.595040"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T15:22:38.838949"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Nour",
+      "success": true,
+      "timestamp": "2025-10-28T15:23:00.669755"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Nour's Family",
+      "success": true,
+      "timestamp": "2025-10-28T15:23:21.511482"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T15:23:45.452270"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T15:24:10.105711"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Great Pyramids of Giza Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T15:24:31.460533"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Sphinx",
+      "success": true,
+      "timestamp": "2025-10-28T15:24:51.036736"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "River Nile",
+      "success": true,
+      "timestamp": "2025-10-28T15:25:12.217188"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning hieroglyphics",
+      "success": true,
+      "timestamp": "2025-10-28T15:25:32.226099"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T15:25:54.043013"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T15:26:14.754702"
+    }
+  ],
+  "duration_seconds": 298.0
+}

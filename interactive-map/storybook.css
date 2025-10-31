@@ -1,0 +1,280 @@
+/* Alexandria's World - Storybook Modal Styles */
+
+/* Modal Overlay */
+.storybook-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.3s ease-in;
+}
+
+/* Modal Content */
+.modal-content {
+    background: linear-gradient(135deg, #FFFEF7 0%, #FFF5E6 100%);
+    border-radius: 30px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: slideUp 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    padding: 40px;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: rgba(255, 77, 77, 0.9);
+    border: none;
+    color: white;
+    font-size: 2.5em;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-weight: bold;
+    line-height: 1;
+    z-index: 10;
+}
+
+.close-btn:hover {
+    background: rgba(255, 77, 77, 1);
+    transform: rotate(90deg) scale(1.1);
+}
+
+/* Book Container */
+.book-container {
+    margin-top: 20px;
+}
+
+/* Page Display */
+.page-display {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#page-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+#page-image:hover {
+    transform: scale(1.02);
+}
+
+.page-text {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    border: 3px solid #FF7F50;
+    font-size: 1.3em;
+    line-height: 1.8;
+    color: #333;
+    font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif;
+    min-height: 60px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.page-text:empty {
+    display: none;
+}
+
+/* Controls */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.nav-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.nav-btn:hover:not(:disabled) {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+}
+
+.nav-btn:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.nav-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.page-info {
+    background: rgba(102, 126, 234, 0.1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: #667eea;
+    font-size: 1.1em;
+}
+
+/* Page Dots */
+.page-dots {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.page-dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #ddd;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.page-dot.active {
+    background: #667eea;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(102, 126, 234, 0.6);
+}
+
+.page-dot:hover {
+    background: #764ba2;
+}
+
+/* Action Buttons */
+.action-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    background: linear-gradient(135deg, #90EE90 0%, #32CD32 100%);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 1.15em;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 12px rgba(144, 238, 144, 0.4);
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(144, 238, 144, 0.6);
+}
+
+#read-aloud {
+    background: linear-gradient(135deg, #87CEEB 0%, #4682B4 100%);
+}
+
+#collect-stamp {
+    background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .close-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 2em;
+    }
+
+    #page-image {
+        border-radius: 15px;
+    }
+
+    .page-text {
+        font-size: 1.1em;
+        padding: 18px;
+    }
+
+    .nav-btn {
+        padding: 12px 20px;
+        font-size: 1em;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+
+    .page-info {
+        order: -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 20px;
+    }
+
+    .page-text {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .nav-btn {
+        width: 100%;
+    }
+}

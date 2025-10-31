@@ -1,0 +1,95 @@
+{
+  "country": "Chad",
+  "code": "TD",
+  "generation_date": "2025-10-28T14:54:21.722814",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:34.312609"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:54:51.770100"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:11.779914"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:29.541745"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Amina",
+      "success": true,
+      "timestamp": "2025-10-28T14:55:48.070597"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Amina's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:09.301713"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:32.395708"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:56:50.832923"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Lake Chad Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:09.312651"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Ennedi Plateau rock formations",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:28.630847"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Zakouma National Park",
+      "success": true,
+      "timestamp": "2025-10-28T14:57:52.957242"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning traditional music",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:16.161726"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:58:40.074755"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:59:03.665636"
+    }
+  ],
+  "duration_seconds": 287.94
+}

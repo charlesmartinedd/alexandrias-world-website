@@ -1,0 +1,98 @@
+{
+  "country": "Japan",
+  "countryCode": "JP",
+  "greeting": "Konnichiwa",
+  "flag": "🇯🇵",
+  "pages": [
+    {
+      "number": 1,
+      "image": "page_01_cover.png",
+      "text": "",
+      "title": "Alexandria's World: Japan"
+    },
+    {
+      "number": 2,
+      "image": "page_02_introduction.png",
+      "text": "Konnichiwa! That means Hello in Japanese. My name is Alexandria and welcome to my world.",
+      "title": "Introduction"
+    },
+    {
+      "number": 3,
+      "image": "page_03_arrival.png",
+      "text": "Today we are traveling to Japan.",
+      "title": "Arrival"
+    },
+    {
+      "number": 4,
+      "image": "page_04_plane_window.png",
+      "text": "Did you know that Japan is made up of over 6,800 islands? The four main islands are Honshu, Hokkaido, Kyushu, and Shikoku.",
+      "title": "Plane Window View"
+    },
+    {
+      "number": 5,
+      "image": "page_05_meeting_friend.png",
+      "text": "I am visiting my friend Sakura. She is from Tokyo, Japan.",
+      "title": "Meeting Friend"
+    },
+    {
+      "number": 6,
+      "image": "page_06_with_family.png",
+      "text": "\"Konnichiwa Alexandria! We have much to show you,\" says Sakura. \"Tonight, we will have a special meal.\"",
+      "title": "With Family"
+    },
+    {
+      "number": 7,
+      "image": "page_07_traditional_meal.png",
+      "text": "In the tatami room, we eat many traditional foods like onigiri rice balls, miso soup, tempura vegetables, and sweet mochi.",
+      "title": "Traditional Meal"
+    },
+    {
+      "number": 8,
+      "image": "page_08_cultural_story.png",
+      "text": "\"We say 'Itadakimasu' before eating to thank the food,\" says Sakura. \"In Japan, we show respect for everything that gives us life.\"",
+      "title": "Cultural Story"
+    },
+    {
+      "number": 9,
+      "image": "page_09_akihabara.png",
+      "text": "Sakura's dad takes us to Akihabara, the anime and electronics district! The bright lights and colorful buildings are amazing. I see my favorite anime characters everywhere!",
+      "title": "Akihabara Adventure"
+    },
+    {
+      "number": 10,
+      "image": "page_10_nara_deer.png",
+      "text": "Deep in Nara Park, we feed friendly deer with special crackers. The deer bow to us before taking the treats!",
+      "title": "Nature Interaction"
+    },
+    {
+      "number": 11,
+      "image": "page_11_fushimi_inari.png",
+      "text": "Today, we are at Fushimi Inari Shrine. \"These thousands of red torii gates lead up the mountain,\" says Sakura. \"People from all over the world come to walk through them.\"",
+      "title": "Famous Landmark"
+    },
+    {
+      "number": 12,
+      "image": "page_12_origami.png",
+      "text": "Sakura teaches me how to fold origami cranes. \"In Japan, we believe that folding one thousand cranes brings good luck and peace,\" she explains as I carefully make each fold.",
+      "title": "Cultural Participation"
+    },
+    {
+      "number": 13,
+      "image": "page_13_playground.png",
+      "text": "Even though we live in different places, it is good that we enjoy the same things.",
+      "title": "Shared Experience"
+    },
+    {
+      "number": 14,
+      "image": "page_14_goodbye.png",
+      "text": "I thank Sakura for showing me around Japan. Sakura says, \"Sayonara means goodbye.\" I say, \"Sayonara my friend!\"",
+      "title": "Goodbye"
+    }
+  ],
+  "vocabulary": [
+    {"word": "Konnichiwa", "meaning": "Hello", "japanese": "こんにちは"},
+    {"word": "Itadakimasu", "meaning": "Before eating", "japanese": "いただきます"},
+    {"word": "Arigatou gozaimasu", "meaning": "Thank you", "japanese": "ありがとうございます"},
+    {"word": "Sayonara", "meaning": "Goodbye", "japanese": "さようなら"}
+  ]
+}

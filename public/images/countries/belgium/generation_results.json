@@ -1,0 +1,95 @@
+{
+  "country": "Belgium",
+  "code": "BE",
+  "generation_date": "2025-10-28T14:31:20.605547",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:31:34.011441"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:31:51.965110"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:10.999959"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:29.567897"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Emma",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:47.654521"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Emma's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:07.633555"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:29.992639"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:50.373226"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Atomium in Brussels Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:10.328049"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Bruges medieval canals",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:31.781080"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Grand Place square",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:56.728104"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning about comic art",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:19.302133"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:39.252630"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:57.677134"
+    }
+  ],
+  "duration_seconds": 283.07
+}

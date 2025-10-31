@@ -1,0 +1,95 @@
+{
+  "country": "Canada",
+  "code": "CA",
+  "generation_date": "2025-10-28T12:43:39.227240",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T12:43:55.189291"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T12:44:19.426597"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T12:44:43.791974"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T12:45:04.621808"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Emma",
+      "success": true,
+      "timestamp": "2025-10-28T12:45:29.139728"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Emma's Family",
+      "success": true,
+      "timestamp": "2025-10-28T12:45:51.976489"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T12:46:18.039054"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T12:46:38.049312"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "CN Tower Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T12:47:00.006686"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Niagara Falls",
+      "success": true,
+      "timestamp": "2025-10-28T12:47:22.076677"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Rocky Mountains",
+      "success": true,
+      "timestamp": "2025-10-28T12:47:44.729290"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning ice skating",
+      "success": true,
+      "timestamp": "2025-10-28T12:48:06.609427"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T12:48:28.390046"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T12:48:49.984369"
+    }
+  ],
+  "duration_seconds": 316.77
+}

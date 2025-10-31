@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexandria's World | Review Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="hero">
+        <span class="hero__eyebrow">Alexandria's World review studio</span>
+        <h1 class="hero__title">Explore every country before it goes to print</h1>
+        <p class="hero__blurb">
+          Browse beautifully illustrated journeys, track what still needs attention, and leave
+          notes for refinements. Built for an intuitive couch review session with the whole family.
+        </p>
+        <div class="metrics-bar">
+          <div class="metric-chip" data-role="metric-total">0 countries</div>
+          <div class="metric-chip" data-role="metric-complete">0 ready</div>
+          <div class="metric-chip" data-role="metric-incomplete">0 needs work</div>
+          <div class="metric-chip" data-role="metric-flagged">0 flagged</div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="filter-panel">
+          <label class="search-field">
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+              <path
+                d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16Zm6-2 4 4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <input
+              type="search"
+              placeholder="Search by country or code..."
+              autocomplete="off"
+              data-role="search"
+              aria-label="Search countries"
+            />
+          </label>
+
+          <div class="filter-chips">
+            <button class="filter-chip" data-role="status-chip" data-filter="all" data-active="true">
+              Show all
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="complete" data-active="false">
+              Complete
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="incomplete" data-active="false">
+              Needs pages
+            </button>
+            <button class="filter-chip" data-role="status-chip" data-filter="empty" data-active="false">
+              Not started
+            </button>
+          </div>
+
+          <div class="board-actions">
+            <button class="button button--outline" data-role="export-notes">
+              Export notes
+            </button>
+            <button class="button button--primary" data-role="queue-button">
+              Review queue
+            </button>
+          </div>
+        </div>
+
+        <section class="gallery" data-role="gallery"></section>
+        <div class="empty-state" data-role="empty-state" hidden>
+          <h3>Let's explore</h3>
+          <p data-role="empty-count">No matches yet.</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="modal" id="country-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal__panel">
+        <aside class="modal__sidebar" data-role="modal-sidebar"></aside>
+        <section class="modal__viewer">
+          <div class="viewer__toolbar">
+            <div>
+              <h2 data-role="modal-title">Country</h2>
+              <p data-role="modal-subtitle"></p>
+            </div>
+            <div class="viewer__controls">
+              <button data-role="modal-prev" aria-label="Previous page">◀</button>
+              <button data-role="modal-next" aria-label="Next page">▶</button>
+            </div>
+          </div>
+          <img data-role="modal-image" class="viewer__image" alt="" />
+          <div class="viewer__caption" data-role="viewer-caption"></div>
+          <p data-role="modal-progress" class="viewer__meta-line"></p>
+        </section>
+        <aside class="modal__details">
+          <div class="country-meta">
+            <ul class="meta-list" data-role="meta-list"></ul>
+          </div>
+          <div class="notes-section">
+            <label for="notes-field"><strong>Reviewer notes</strong></label>
+            <textarea id="notes-field" data-role="notes-field" placeholder="Leave page-specific notes here..."></textarea>
+          </div>
+          <button class="flag-toggle" data-role="flag-toggle" aria-pressed="false">
+            🚩 Flag this page for follow-up
+          </button>
+        </aside>
+      </div>
+      <button class="modal__close" data-role="modal-close" aria-label="Close viewer">×</button>
+    </div>
+
+    <section class="review-queue" id="review-queue">
+      <div class="queue__header">
+        <h3>Flagged for revision</h3>
+        <button class="button button--outline" data-role="queue-close">Close</button>
+      </div>
+      <div class="queue__items" data-role="queue-items"></div>
+    </section>
+
+    <script type="module" src="assets/scripts/app.js"></script>
+  </body>
+</html>

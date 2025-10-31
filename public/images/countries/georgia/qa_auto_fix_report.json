@@ -1,0 +1,20 @@
+{
+  "country": "georgia",
+  "timestamp": "2025-10-28T20:31:49.992386",
+  "checks": {
+    "pages_exist": true,
+    "page_count": 14,
+    "image_quality": true,
+    "cover_title": "manual_check_needed",
+    "generation_results": true,
+    "generation_success_rate": "0/14"
+  },
+  "passed": true,
+  "issues": [],
+  "warnings": [
+    "Cover title needs manual verification"
+  ],
+  "fixes_applied": [],
+  "regenerated_pages": [],
+  "auto_fix_enabled": true
+}

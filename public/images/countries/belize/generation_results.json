@@ -1,0 +1,95 @@
+{
+  "country": "Belize",
+  "code": "BZ",
+  "generation_date": "2025-10-28T14:31:26.337520",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:31:40.071087"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:01.838673"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:21.049488"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:38.903203"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Carmen",
+      "success": true,
+      "timestamp": "2025-10-28T14:32:56.971209"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Carmen's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:17.282665"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:36.371484"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:33:55.358788"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Great Blue Hole Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:18.546736"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Mayan ruins at Caracol",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:37.647876"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Barrier reef",
+      "success": true,
+      "timestamp": "2025-10-28T14:34:57.014237"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning Garifuna drumming",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:18.626777"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:37.406349"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:35:58.577455"
+    }
+  ],
+  "duration_seconds": 278.24
+}

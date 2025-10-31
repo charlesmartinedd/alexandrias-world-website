@@ -1,0 +1,95 @@
+{
+  "country": "Bahamas",
+  "code": "BS",
+  "generation_date": "2025-10-28T14:22:03.171446",
+  "total_pages": 14,
+  "successful": 14,
+  "failed": 0,
+  "results": [
+    {
+      "page_id": "page_01_cover",
+      "title": "Cover",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:17.091022"
+    },
+    {
+      "page_id": "page_02_introduction",
+      "title": "Introduction",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:36.171759"
+    },
+    {
+      "page_id": "page_03_arrival",
+      "title": "Airplane Arrival",
+      "success": true,
+      "timestamp": "2025-10-28T14:22:54.063690"
+    },
+    {
+      "page_id": "page_04_plane_window",
+      "title": "Plane Window View",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:11.885630"
+    },
+    {
+      "page_id": "page_05_meeting_friend",
+      "title": "Meeting Aaliyah",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:32.839896"
+    },
+    {
+      "page_id": "page_06_with_family",
+      "title": "Walking with Aaliyah's Family",
+      "success": true,
+      "timestamp": "2025-10-28T14:23:53.806403"
+    },
+    {
+      "page_id": "page_07_traditional_meal",
+      "title": "Traditional Meal",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:16.801792"
+    },
+    {
+      "page_id": "page_08_cultural_story",
+      "title": "Cultural Story Moment",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:36.696721"
+    },
+    {
+      "page_id": "page_09_landmark_visit",
+      "title": "Pink sand beaches Adventure",
+      "success": true,
+      "timestamp": "2025-10-28T14:24:54.996936"
+    },
+    {
+      "page_id": "page_10_second_landmark",
+      "title": "Visiting Swimming pigs at Exuma",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:14.250993"
+    },
+    {
+      "page_id": "page_11_third_landmark",
+      "title": "Nassau straw market",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:33.242005"
+    },
+    {
+      "page_id": "page_12_activity",
+      "title": "Learning learning Junkanoo dancing",
+      "success": true,
+      "timestamp": "2025-10-28T14:25:57.545938"
+    },
+    {
+      "page_id": "page_13_playground",
+      "title": "Shared Universal Experience",
+      "success": true,
+      "timestamp": "2025-10-28T14:26:16.362651"
+    },
+    {
+      "page_id": "page_14_goodbye",
+      "title": "Saying Goodbye",
+      "success": true,
+      "timestamp": "2025-10-28T14:26:39.191928"
+    }
+  ],
+  "duration_seconds": 282.02
+}
