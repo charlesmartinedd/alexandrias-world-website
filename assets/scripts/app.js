@@ -45,8 +45,12 @@ const dom = {
 };
 
 document.addEventListener("DOMContentLoaded", async () => {
+  console.log('🚀 App starting...');
   const manifest = await fetchManifest();
-  state.countries = manifest.countries;
+  console.log('📦 Manifest loaded:', manifest);
+  console.log('📊 Countries count:', manifest.countries?.length || 0);
+  state.countries = manifest.countries || [];
+  console.log('✅ State.countries:', state.countries.length);
   applyFilters();
   renderMetrics();
   bindEvents();
@@ -148,6 +152,9 @@ function applyFilters() {
   const { search, status } = state.filters;
   const query = search.trim();
 
+  console.log('🔍 Applying filters - search:', query, 'status:', status);
+  console.log('📚 Total countries to filter:', state.countries.length);
+
   state.filtered = state.countries.filter((country) => {
     const matchesSearch =
       query.length === 0 ||
@@ -160,13 +167,16 @@ function applyFilters() {
     return matchesSearch && matchesStatus;
   });
 
+  console.log('✨ Filtered results:', state.filtered.length);
   renderGallery();
 }
 
 function renderGallery() {
+  console.log('🎨 Rendering gallery with', state.filtered.length, 'countries');
   dom.gallery.innerHTML = "";
 
   if (!state.filtered.length) {
+    console.log('⚠️ No countries to display - showing empty state');
     dom.emptyState.removeAttribute("hidden");
     dom.gallery.setAttribute("hidden", "");
     dom.emptyState.querySelector("[data-role='empty-count']").textContent =
@@ -174,6 +184,7 @@ function renderGallery() {
     return;
   }
 
+  console.log('✅ Rendering', state.filtered.length, 'country cards');
   dom.emptyState.setAttribute("hidden", "");
   dom.gallery.removeAttribute("hidden");
 
@@ -185,6 +196,7 @@ function renderGallery() {
   }
 
   dom.gallery.appendChild(fragment);
+  console.log('🎉 Gallery rendered successfully!');
 }
 
 function buildCountryCard(country) {
