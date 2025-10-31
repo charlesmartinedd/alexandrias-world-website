@@ -58,12 +58,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 async function fetchManifest() {
   try {
-    const response = await fetch("./public/data/books.json?" + Date.now());
+    console.log('🔄 Fetching manifest...');
+    const response = await fetch("public/data/books.json?" + Date.now());
+    console.log('📡 Response status:', response.status, response.statusText);
     if (!response.ok) throw new Error("Failed to load books.json");
-    return response.json();
+    const data = await response.json();
+    console.log('✅ Manifest loaded! Countries:', data.countries.length);
+    return data;
   } catch (error) {
-    console.error(error);
-    dom.emptyState.innerHTML = `<h3>Manifest unavailable</h3><p>Please run <code>node scripts/generate-book-data.mjs</code> and reload.</p>`;
+    console.error('❌ Fetch error:', error);
+    if (dom.emptyState) {
+      dom.emptyState.innerHTML = `<h3>Manifest unavailable</h3><p>Error: ${error.message}</p>`;
+    }
     return { countries: [] };
   }
 }
